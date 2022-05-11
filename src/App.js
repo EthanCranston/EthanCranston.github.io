@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { FaDev } from "react-icons/fa";
 
-function App() {
+import styles from "./App.module.css";
+import useNavigation from "./hooks/useNavigation";
+import navigationData from "./data/navigation";
+
+import Navbar from "./components/Navbar";
+import Tabbar from "./components/Tabbar";
+
+const App = () => {
+  const { currentRoute, setCurrentRoute } = useNavigation();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+      <Navbar
+        navigationData={navigationData}
+        currentRoute={currentRoute}
+        setCurrentRoute={setCurrentRoute}
+      />
+      <Tabbar
+        navigationData={navigationData}
+        currentRoute={currentRoute}
+        setCurrentRoute={setCurrentRoute}
+      />
+      <div className={styles.devLogo}>
+        <FaDev />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
