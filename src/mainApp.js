@@ -1,4 +1,5 @@
 import React from "react";
+import { Link , useParams} from "react-router-dom";
 
 import styles from "./App.module.css";
 import useNavigation from "./hooks/useNavigation";
@@ -10,6 +11,10 @@ import CurrentPage from "./pages/pageControl";
 
 const MainApp = () => {
   const { currentRoute, setCurrentRoute } = useNavigation();
+  console.log(useParams());
+  let { projectName } = useParams();
+
+  if (projectName) setCurrentRoute(projectName);
 
   return (
     <div className={styles.container}>

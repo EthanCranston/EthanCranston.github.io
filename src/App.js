@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainApp />} />
-          <Route path="/:projectName" element={<ProjectControl />} />
+          <Route path="/:projectName" element={<MainApp />} />
         </Routes>
       </BrowserRouter>
     </>

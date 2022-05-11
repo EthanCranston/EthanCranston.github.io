@@ -20,7 +20,14 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
               currentRoute === item && styles.selectedNavItem,
             ])}
             key={index}
-            onClick={() => setCurrentRoute(item)}
+            onClick={() => {
+              if (window.location.pathname != '/'){
+                window.location.pathname = '/'
+              }
+              //console.log(item)
+
+              setCurrentRoute(item)
+            }}
           >
             {item}
           </li>
