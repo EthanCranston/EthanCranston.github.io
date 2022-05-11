@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import { ReactComponent as EthanLogo } from '../../data/EthanLogo1.svg';
 import classNames from "classnames";

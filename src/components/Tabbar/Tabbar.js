@@ -3,10 +3,12 @@ import classNames from "classnames";
 import { AiFillHome } from "react-icons/ai";
 import { FaHammer } from "react-icons/fa";
 import { GrMail } from "react-icons/gr"
+import { useNavigate } from "react-router-dom";
 
 import styles from "./Tabbar.module.css";
 
 const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
+  const navigate = useNavigate();
   const getTabIcon = useCallback((item) => {
     switch (item) {
       case "Home":
@@ -29,7 +31,12 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
             styles.tabItem,
             currentRoute === item && styles.tabItemActive,
           ])}
-          onClick={() => setCurrentRoute(item)}
+          onClick={() => {
+            if (window.location.pathname !== '/'){
+              navigate("/")
+            }
+            setCurrentRoute(item)
+          }}
         >
           <span className={styles.icon}>{getTabIcon(item)}</span>
         </span>
