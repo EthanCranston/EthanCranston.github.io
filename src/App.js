@@ -1,33 +1,20 @@
 import React from "react";
-import { FaDev } from "react-icons/fa";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import styles from "./App.module.css";
-import useNavigation from "./hooks/useNavigation";
-import navigationData from "./data/navigation";
+import MainApp from "./mainApp";
+import ProjectControl from "./pages/projects/projectControl";
 
-import Navbar from "./components/Navbar";
-import Tabbar from "./components/Tabbar";
-
-const App = () => {
-  const { currentRoute, setCurrentRoute } = useNavigation();
-
+function App() {
   return (
-    <div className={styles.container}>
-      <Navbar
-        navigationData={navigationData}
-        currentRoute={currentRoute}
-        setCurrentRoute={setCurrentRoute}
-      />
-      <Tabbar
-        navigationData={navigationData}
-        currentRoute={currentRoute}
-        setCurrentRoute={setCurrentRoute}
-      />
-      <div className={styles.devLogo}>
-        <FaDev />
-      </div>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainApp />} />
+          <Route path="/:projectName" element={<ProjectControl />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
-};
+}
 
 export default App;

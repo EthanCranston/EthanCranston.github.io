@@ -15,6 +15,8 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         return <FaHammer />;
       case "Contact":
         return <GrMail />;
+      default:
+        return;
     }
   }, []);
 

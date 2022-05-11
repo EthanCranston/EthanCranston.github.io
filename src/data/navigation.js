@@ -1,1 +1,2 @@
-export default ["Home", "Projects", "Contact"];
+let pages = ["Home", "Projects", "Contact"]
+export default pages;
