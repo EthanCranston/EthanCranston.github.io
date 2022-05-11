@@ -1,4 +1,6 @@
 import React from "react";
+import { useNavigate} from "react-router-dom";
+
 import { ReactComponent as EthanLogo } from '../../data/EthanLogo1.svg';
 import classNames from "classnames";
 
@@ -6,6 +8,7 @@ import classNames from "classnames";
 import styles from "./Navbar.module.css";
 
 const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
+  const navigate = useNavigate();
   return (
     <nav className={styles.navbar}>
       <span className={styles.logo}>
@@ -21,10 +24,9 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
             ])}
             key={index}
             onClick={() => {
-              if (window.location.pathname != '/'){
-                window.location.pathname = '/'
+              if (window.location.pathname !== '/'){
+                navigate("/")
               }
-              //console.log(item)
 
               setCurrentRoute(item)
             }}

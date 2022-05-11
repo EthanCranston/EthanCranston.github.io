@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import MainApp from "./mainApp";
-import ProjectControl from "./pages/projects/projectControl";
+
 
 function App() {
   return (
