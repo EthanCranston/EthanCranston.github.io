@@ -1,6 +1,7 @@
 .tileTitle{
     @apply text-center m-1  text-white;
 }
+
 .tileDesc{
     @apply text-center mx-1 mt-3 text-white;
 }
