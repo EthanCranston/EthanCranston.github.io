@@ -7,26 +7,21 @@ import Crossword from "./projects/crossword";
 import PuzzleSolver from "./projects/puzzleSolver";
 
 
+const allPages = {
+    "Home": <HomePage />,
+    "Contact": <ContactPage />,
+    "Projects": <ProjectSelect />,
+    "crossword": <Crossword />,
+    "puzzlesolver": <PuzzleSolver />
+}
+
+
 const CurrentPage = ({ currentRoute }) => {
-    
-    if (currentRoute === "Home") {
-        return <HomePage />;
-    }
-    else if (currentRoute === "Contact") {
-        return <ContactPage />;
-    }
-    else if (currentRoute === "Projects"){
-        return <ProjectSelect />;
-    }
-    else if (currentRoute === "crossword"){
-        return <Crossword />;
-    }
-    else if (currentRoute == "puzzlesolver"){
-        return <PuzzleSolver />;
-    }
-    else{
-        return <Page404 />
-    }
+
+    let page = allPages[currentRoute];
+    if (!page) page = <Page404 />;
+
+    return page;
 
 };
 

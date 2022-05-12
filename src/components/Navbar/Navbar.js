@@ -7,14 +7,20 @@ import classNames from "classnames";
 
 import styles from "./Navbar.module.css";
 
+
 const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
   const navigate = useNavigate();
   return (
     <nav className={styles.navbar}>
-      <span className={styles.logo}>
-        <EthanLogo/>
+      <span className={styles.logo} onClick={() => {
+        if (window.location.pathname !== '/') {
+          navigate("/")
+        }
+        setCurrentRoute("Home")
+      }}>
+        <EthanLogo />
       </span>
-      
+
       <ul className={styles.navItems}>
         {navigationData.map((item, index) => (
           <li
@@ -24,7 +30,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
             ])}
             key={index}
             onClick={() => {
-              if (window.location.pathname !== '/'){
+              if (window.location.pathname !== '/') {
                 navigate("/")
               }
 
@@ -36,7 +42,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         ))}
       </ul>
       <div></div>
-    </nav>
+    </nav >
   );
 };
 

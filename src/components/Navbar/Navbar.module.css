@@ -11,7 +11,7 @@
   }
   
   .navItem {
-    @apply w-22 text-gray-400 hover:text-gray-700 cursor-pointer font-medium tracking-wide text-sm flex items-start justify-center;
+    @apply w-22 text-gray-400 hover:text-gray-700 cursor-pointer font-medium font-mono tracking-wide text-sm flex items-start justify-center;
   }
   
   .selectedNavItem {
