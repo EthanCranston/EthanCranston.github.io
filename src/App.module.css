@@ -1,5 +1,5 @@
 .container {
-    @apply bg-gradient-to-t from-yellow-100 to-gray-200 h-screen;
+    @apply bg-gradient-to-t h-screen bg-gradient-to-t from-gray-100 to-gray-300;
   }
   
   .devLogo {

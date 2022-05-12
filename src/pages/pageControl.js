@@ -1,8 +1,8 @@
 import React from "react";
-import classNames from "classnames";
 import HomePage from "./home";
 import ContactPage from "./contact";
 import ProjectSelect from "./projectSelect";
+import Page404 from "./page404";
 import Crossword from "./projects/crossword";
 import PuzzleSolver from "./projects/puzzleSolver";
 
@@ -12,17 +12,20 @@ const CurrentPage = ({ currentRoute }) => {
     if (currentRoute === "Home") {
         return <HomePage />;
     }
-    if (currentRoute === "Contact") {
+    else if (currentRoute === "Contact") {
         return <ContactPage />;
     }
-    if (currentRoute === "Projects"){
+    else if (currentRoute === "Projects"){
         return <ProjectSelect />;
     }
-    if (currentRoute === "crossword"){
+    else if (currentRoute === "crossword"){
         return <Crossword />;
     }
-    if (currentRoute == "puzzlesolver"){
+    else if (currentRoute == "puzzlesolver"){
         return <PuzzleSolver />;
+    }
+    else{
+        return <Page404 />
     }
 
 };
