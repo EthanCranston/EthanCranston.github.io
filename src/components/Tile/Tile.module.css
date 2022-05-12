@@ -1,0 +1,11 @@
+.tileTitle{
+    @apply text-center m-1  text-white;
+}
+.tileDesc{
+    @apply text-center mx-1 mt-3 text-white;
+}
+
+.background{
+    @apply h-full w-full m-0  text-white bg-black rounded-lg bg-opacity-10 hover:bg-opacity-80 duration-200;
+}
+

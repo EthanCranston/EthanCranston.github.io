@@ -5,3 +5,7 @@ h1 {
 p{
   @apply text-lg font-mono mt-3 ml-5 selection:bg-yellow-200;
 }
+
+ul{
+  @apply text-lg font-mono ml-10;
+}

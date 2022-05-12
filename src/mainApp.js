@@ -22,19 +22,23 @@ const MainApp = () => {
 
   return (
     <div className={styles.container}>
+      
       <Navbar
         navigationData={navigationData}
         currentRoute={currentRoute}
         setCurrentRoute={setCurrentRoute}
       />
+      
+      <div>
+        <CurrentPage currentRoute={currentRoute}/>
+      </div>
+
       <Tabbar
         navigationData={navigationData}
         currentRoute={currentRoute}
         setCurrentRoute={setCurrentRoute}
       />
-      <div>
-        <CurrentPage currentRoute={currentRoute}/>
-      </div>
+      
     </div>
   );
 };
