@@ -2,6 +2,7 @@ import React from "react";
 import HomePage from "./home";
 import ContactPage from "./contact";
 import ProjectSelect from "./projectSelect";
+import ExperiencePage from "./experience";
 import Page404 from "./page404";
 import Crossword from "./projects/crossword";
 import PuzzleSolver from "./projects/puzzleSolver";
@@ -11,6 +12,7 @@ const allPages = {
     "Home": <HomePage />,
     "Contact": <ContactPage />,
     "Projects": <ProjectSelect />,
+    "Experience": <ExperiencePage />,
     "crossword": <Crossword />,
     "puzzlesolver": <PuzzleSolver />
 }

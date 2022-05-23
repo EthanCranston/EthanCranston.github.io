@@ -3,6 +3,7 @@ import classNames from "classnames";
 import { AiFillHome } from "react-icons/ai";
 import { FaHammer } from "react-icons/fa";
 import { GrMail } from "react-icons/gr"
+import { ImUserTie } from "react-icons/im"
 import { useNavigate } from "react-router-dom";
 
 import styles from "./Tabbar.module.css";
@@ -17,6 +18,8 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         return <FaHammer />;
       case "Contact":
         return <GrMail />;
+      case "Experience":
+        return <ImUserTie />;
       default:
         return;
     }
@@ -32,7 +35,7 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
             currentRoute === item && styles.tabItemActive,
           ])}
           onClick={() => {
-            if (window.location.pathname !== '/'){
+            if (window.location.pathname !== '/') {
               navigate("/")
             }
             setCurrentRoute(item)

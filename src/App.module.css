@@ -2,6 +2,3 @@
     @apply bg-gradient-to-t h-screen bg-gradient-to-t from-gray-100 to-gray-300;
   }
   
-  .devLogo {
-    @apply flex items-center justify-center text-5xl text-gray-300 h-5/6;
-  }
