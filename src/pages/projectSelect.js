@@ -2,7 +2,7 @@ import React from "react";
 import "./Pages.css";
 
 import Tile from "../components/Tile/Tile";
-import allProjects from "./projects/projectData";
+import allProjects from "../data/projectData";
 
 const ProjectSelect = () => {
 

@@ -4,6 +4,7 @@ import "./Pages.css";
 import Dropdown from "../components/Dropdown/Dropdown";
 
 import daImage from "../images/binary.jpg"
+import sketchupImage from "../images/sketchup.jpg"
 
 const ExperiencePage = () => {
     return (
@@ -14,7 +15,7 @@ const ExperiencePage = () => {
             <Dropdown
             title={"Test Title Test Title"}
             date={"April 2022 - June 2023"}
-            image={daImage}
+            image={sketchupImage}
             description={"TestDescription"}
             />
 

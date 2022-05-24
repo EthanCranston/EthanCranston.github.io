@@ -1,4 +1,4 @@
-import dataImage from "../../images/data.jpg"
+import dataImage from "../images/data.jpg"
 
 const allProjects = [
     {
