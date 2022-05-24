@@ -10,7 +10,9 @@ const ExperiencePage = () => {
             <p>This will basically be a resume.</p>
 
             <Dropdown
-            title={"TestTitle"}
+            title={"Test Title Test Title"}
+            date={"April 2022 - June 2023"}
+            image={"/public/images/data.jpg"}
             description={"TestDescription"}
             />
 

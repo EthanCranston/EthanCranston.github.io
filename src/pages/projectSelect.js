@@ -18,7 +18,6 @@ const ProjectSelect = () => {
             />)
     });
 
-    //<div class={ "relative w-60 h-60 bg-[url('/public/images/data.jpg')] bg-cover rounded-lg" }></div>
     return (
         <>
             <h1 className='text-center'>My Projects:</h1>

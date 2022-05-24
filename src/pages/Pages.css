@@ -2,6 +2,10 @@ h1 {
     @apply text-4xl font-bold mt-5 ml-5 selection:bg-yellow-200;
   }
 
+  h2 {
+    @apply text-3xl selection:bg-yellow-200;
+  }
+
 p{
   @apply text-lg font-mono mt-3 ml-5 selection:bg-yellow-200;
 }
