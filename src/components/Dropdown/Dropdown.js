@@ -5,7 +5,6 @@ import { IoIosArrowUp } from "react-icons/io"
 import { FaPlus, FaMinus } from "react-icons/fa"
 
 
-
 const Dropdown = ({ title, date, image, description }) => {
     const [isExpanded, setExpansion] = useState(false);
     function toggleExpansion() {
@@ -13,13 +12,14 @@ const Dropdown = ({ title, date, image, description }) => {
     }
 
     return (
-        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div class="max-w-md m-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
             <div class="md:flex">
                 <div class="md:shrink-0">
-                    <div class={"h-48 w-full object-cover md:h-full md:w-48 bg-[url('" + image + "')] bg-cover"}></div>
+                    {/* <div class={"h-48 w-full object-cover md:h-full md:w-48 bg-[url('" + image + "')] bg-cover"}></div> */}
+                    <img src={image} class={"h-48 w-full object-cover md:h-full md:w-48"}></img>
                 </div>
                 <div class="p-8">
-                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{date}</div>
+                    <div class="uppercase tracking-wide text-sm text-yellow-500 font-semibold">{date}</div>
                     <div class="flex">
                         <h2 href="#" class="block mt-1 text-lg leading-tight font-medium text-black">{title}</h2>
                     </div>

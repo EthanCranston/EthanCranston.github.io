@@ -3,6 +3,8 @@ import "./Pages.css";
 
 import Dropdown from "../components/Dropdown/Dropdown";
 
+import daImage from "../images/binary.jpg"
+
 const ExperiencePage = () => {
     return (
         <>
@@ -12,7 +14,7 @@ const ExperiencePage = () => {
             <Dropdown
             title={"Test Title Test Title"}
             date={"April 2022 - June 2023"}
-            image={"/public/images/data.jpg"}
+            image={daImage}
             description={"TestDescription"}
             />
 

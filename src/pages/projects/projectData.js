@@ -1,38 +1,40 @@
+import dataImage from "../../images/data.jpg"
+
 const allProjects = [
     {
         title: "Crosswords",
         description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
-        image: "/public/images/data.jpg",
+        image: dataImage,
         link: "crossword",
     },
     {
         title: "Crosswords",
         description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
-        image: "/public/images/data.jpg",
+        image: dataImage,
         link: "crossword",
     },
     {
         title: "Crosswords",
         description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
-        image: "/public/images/data.jpg",
+        image: dataImage,
         link: "crossword",
     },
     {
         title: "Crosswords",
         description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
-        image: "/public/images/data.jpg",
+        image: dataImage,
         link: "crossword",
     },
     {
         title: "Crosswords",
         description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
-        image: "/public/images/data.jpg",
+        image: dataImage,
         link: "crossword",
     },
     {
         title: "Crosswords",
         description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
-        image: "/public/images/data.jpg",
+        image: dataImage,
         link: "crossword",
     },
 
