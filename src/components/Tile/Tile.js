@@ -8,7 +8,6 @@ const Tile = ({ title, description, image, link }) => {
     const navigate = useNavigate();
 
     return (
-
         // <div class={ "relative w-60 h-60 bg-[url('" + image +"')] bg-cover rounded-lg" } onClick={() => {navigate(link)}}>
         <div class={"relative w-60 h-60 bg-cover rounded-lg"}>
 
