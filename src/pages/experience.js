@@ -14,10 +14,13 @@ import allEducation from "../data/educationData";
 
 import allSkills from "../data/skillData";
 
+import allAchievements from "../data/achievementsData";
+
 const ExperiencePage = () => {
     let experience = [];
     let education = [];
     let skills = [];
+    let achievements = [];
 
     allExperience.forEach(element => {
         experience.push(
@@ -54,6 +57,19 @@ const ExperiencePage = () => {
     })
 
 
+    allAchievements.forEach(element => {
+        achievements.push(
+            <EduCard
+                title={element.title}
+                company={element.company}
+                date={element.date}
+                image={element.image}
+                subTitle={element.subTitle}
+            />
+        )
+    });
+
+
     return (
         <>
             <h1>Experience</h1>
@@ -74,7 +90,10 @@ const ExperiencePage = () => {
 
 
 
-            <h1>Acheivements</h1>
+            <h1>Achievements</h1>
+            <div>
+                {achievements}
+            </div>
             {/* <Dropdown
             title={"Test Title Test Title"}
             date={"April 2022 - June 2023"}

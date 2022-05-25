@@ -23,7 +23,7 @@ const EduCard = ({ category, image, skills }) => {
         <div class="max-w-md m-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-full">
             <div class="md:flex">
                 <div class="md:shrink-0">
-                    <img src={image} class={"h-48 w-full object-cover md:h-full md:w-48"}></img>
+                    <img src={image} class={"h-48 w-full object-cover md:h-full md:w-48"} alt={category + " graphic"}></img>
                 </div>
                 <div class="p-8">
                     <div class="tracking-wide text-sm text-yellow-500 font-semibold">{category}</div>

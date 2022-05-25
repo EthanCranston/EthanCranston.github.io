@@ -23,6 +23,7 @@ const allSkills = [
         [
         ["Adobe Suite", 5],
         ["git", 4],
+        ["Linux", 4],
         ["VSCode", 3],
         ["SoldidWorks", 3],
         ["Cura", 2],
