@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-import styles from "./Dropdown.module.css"
-import { IoIosArrowDown } from "react-icons/io"
-import { IoIosArrowUp } from "react-icons/io"
-import { FaPlus, FaMinus } from "react-icons/fa"
 
 
 const Dropdown = ({ title, company, date, image, description }) => {
@@ -12,20 +8,16 @@ const Dropdown = ({ title, company, date, image, description }) => {
     }
 
     return (
-        <div class="max-w-md m-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div class="max-w-md m-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-full">
             <div class="md:flex">
                 <div class="md:shrink-0">
-                    {/* <div class={"h-48 w-full object-cover md:h-full md:w-48 bg-[url('" + image + "')] bg-cover"}></div> */}
                     <img src={image} class={"h-48 w-full object-cover md:h-full md:w-48"}></img>
                 </div>
                 <div class="p-8">
                     <div class="tracking-wide text-sm text-yellow-500 font-semibold">{date}</div>
-                    <div class="flex">
-                        <h2 href="#" class="block mt-1 text-lg leading-tight font-medium text-black">{title}</h2>
-                    </div>
+                    <h2 href="#" class="block mt-1 text-lg leading-tight font-medium text-black">{title}</h2>
                     <div class="tracking-wide text-sm font-semibold">{company}</div>
-
-                    <p class="mt-2 text-slate-500">{isExpanded ? description : null}</p>
+                    <div class="mt-2 text-slate-500">{isExpanded ? description : null}</div>
                     <span class={"hover:underline cursor-pointer"} onClick={toggleExpansion}>{isExpanded ? "Show Less" : "Show More"}</span>
                 </div>
             </div>

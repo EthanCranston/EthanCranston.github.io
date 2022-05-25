@@ -15,13 +15,12 @@ const MainApp = () => {
   
   let { projectName } = useParams();
 
-
   if (projectName) setCurrentRoute(projectName);
 
-
-
   return (
+    //<div className="md:container md:mx-auto">
     <div className={styles.container}>
+    
       
       <Navbar
         navigationData={navigationData}

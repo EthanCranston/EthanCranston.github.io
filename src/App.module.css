@@ -1,4 +1,4 @@
 .container {
-    @apply bg-gradient-to-t h-screen bg-gradient-to-t from-gray-100 to-gray-300;
+    @apply bg-gradient-to-t min-h-screen bg-gradient-to-t from-gray-100 to-gray-300;
   }
   
