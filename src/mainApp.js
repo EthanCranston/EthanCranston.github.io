@@ -28,7 +28,7 @@ const MainApp = () => {
         setCurrentRoute={setCurrentRoute}
       />
       
-      <div>
+      <div class={"m-5 grid place-items-center"}>
         <CurrentPage currentRoute={currentRoute}/>
       </div>
 

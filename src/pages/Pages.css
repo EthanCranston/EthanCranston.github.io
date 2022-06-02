@@ -1,15 +1,23 @@
 h1 {
-    @apply text-4xl font-bold mt-5 ml-5 selection:bg-yellow-200;
+    @apply text-4xl font-bold mt-5 selection:bg-yellow-200;
   }
 
   h2 {
-    @apply text-3xl selection:bg-yellow-200;
+    @apply text-3xl selection:bg-yellow-200 selection:bg-yellow-200;
   }
 
 p{
-  @apply text-lg font-mono mt-3 ml-5 selection:bg-yellow-200;
+  @apply text-lg font-mono mt-3 selection:bg-yellow-200;
 }
 
 ul{
-  @apply text-lg font-mono ml-10;
+  @apply text-lg font-mono ml-10 selection:bg-yellow-200;
+}
+
+img{
+  @apply select-none;
+}
+
+div{
+  @apply selection:bg-yellow-200;
 }
