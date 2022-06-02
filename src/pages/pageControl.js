@@ -7,6 +7,7 @@ import Page404 from "./page404";
 import Crossword from "./projects/crossword";
 import PuzzleSolver from "./projects/puzzleSolver";
 import DPPathfinder from "./projects/DPPathfinder";
+import ThisWebsite from "./projects/thisWebsite";
 
 
 const allPages = {
@@ -16,7 +17,8 @@ const allPages = {
     "Experience": <ExperiencePage />,
     "crossword": <Crossword />,
     "puzzlesolver": <PuzzleSolver />,
-    "dp-pathfinder": <DPPathfinder />
+    "dppathfinder": <DPPathfinder />,
+    "thiswebsite": <ThisWebsite />
 }
 
 
