@@ -3,6 +3,7 @@ import { Link , useParams} from "react-router-dom";
 
 import PuzzleSolver from "./puzzleSolver";
 import Crossword from "./crossword";
+import DPPathfinder from "./DPPathfinder";
 
 
 function ProjectControl() {
@@ -14,6 +15,7 @@ function ProjectControl() {
     if (projectName === "crossword") {
         return <Crossword />;
     }
+
 };
 
 export default ProjectControl
