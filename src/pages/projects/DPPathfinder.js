@@ -15,7 +15,7 @@ const DPPathfinder = () => {
             The program intakes the  terrain elevation and finds the path left to right of the data that experiences 
             the least elevation change. The elevations are represented as a grayscale image. The optimal path from each
             left pixel is plotted in blue, and the most optimal path is plotted in yellow.</p>
-            <CodeSnippet language="clike"
+            <CodeSnippet language="c"
             code={dpCode}/>
             <CaptionedImage image={coloradoImage} caption={"Path through the rockies"}/>
             <CaptionedImage image={grandCanyonImage} caption={"Path through the Grand Canyon"}/>

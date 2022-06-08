@@ -2,7 +2,7 @@ import React from "react";
 import Prism from "prismjs";
 import "./prism.css";
 import "prismjs/components/prism-python"
-import "prismjs/components/prism-clike"
+import "prismjs/components/prism-c"
 
 
 class CodeSnippet extends React.Component {
@@ -19,7 +19,7 @@ class CodeSnippet extends React.Component {
         return (
             <div>
                 <pre  class={'rounded-md'}>
-                    <code className={"language-" + this.language}>
+                    <code className={`language-${this.language}`}>
                         {this.code}
                     </code>
                 </pre>
