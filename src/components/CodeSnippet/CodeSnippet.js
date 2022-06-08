@@ -1,6 +1,6 @@
 import React from "react";
 import Prism from "prismjs";
-import "./prism.css";
+import "./prismDark.css";
 import "prismjs/components/prism-python"
 import "prismjs/components/prism-c"
 
