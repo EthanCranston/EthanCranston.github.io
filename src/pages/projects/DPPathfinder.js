@@ -26,6 +26,7 @@ const DPPathfinder = () => {
 
     );
 };
+export default DPPathfinder
 
 
 let dpCode ='\
@@ -62,6 +63,3 @@ _dynamic_paths.resize(_height);\n\
                     else _dynamic_paths.at(h).at(w) = south_distance;\n\
                 }\n\
             }\n'
-
-
-export default DPPathfinder
