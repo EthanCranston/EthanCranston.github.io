@@ -21,3 +21,7 @@ img{
 div{
   @apply selection:bg-yellow-200;
 }
+
+a{
+  @apply underline decoration-transparent hover:decoration-inherit transition duration-200 ease-in-out
+}

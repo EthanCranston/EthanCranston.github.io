@@ -1,13 +1,14 @@
 import dataImage from "../images/data.jpg"
 import coloradoImage from "../images/coloradoPath.png"
 import websiteImage from "../data/EthanLogo1.svg"
+import autoClickerImage from "../images/autoClickerExample.jpg"
 
 const allProjects = [ 
     {
-        title: "Crosswords",
-        description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
-        image: dataImage,
-        link: "crossword",
+        title: "Auto Clicker",
+        description: "A custom software to automate simple mouse interaction",
+        image: autoClickerImage,
+        link: "autoclicker",
     },
     {
         title: "DP Pathfinder",

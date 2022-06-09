@@ -16,8 +16,8 @@ const DPPathfinder = () => {
 
         <div class='flex place-items-center'>
             <CaptionedImage image={kiliImage} caption={"Path through Kilimanjaro"}/>
-            <CaptionedImage image={grandCanyonImage} caption={"Path through the Grand Canyon"}/>
-            <CaptionedImage image={coloradoImage} caption={"Path through the rockies"}/>
+            <CaptionedImage image={grandCanyonImage} caption={"Path through The Grand Canyon"}/>
+            <CaptionedImage image={coloradoImage} caption={"Path through The Rockies"}/>
         </div>
         <br></br>
         <p>The program uses the given terrain elevation and finds the path left to right that experiences 

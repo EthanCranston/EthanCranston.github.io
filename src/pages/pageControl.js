@@ -8,6 +8,7 @@ import Crossword from "./projects/crossword";
 import PuzzleSolver from "./projects/puzzleSolver";
 import DPPathfinder from "./projects/DPPathfinder";
 import ThisWebsite from "./projects/thisWebsite";
+import AutoClicker from "./projects/autoClicker";
 
 
 const allPages = {
@@ -18,7 +19,8 @@ const allPages = {
     "crossword": <Crossword />,
     "puzzlesolver": <PuzzleSolver />,
     "dppathfinder": <DPPathfinder />,
-    "thiswebsite": <ThisWebsite />
+    "thiswebsite": <ThisWebsite />,
+    "autoclicker": <AutoClicker />
 }
 
 
