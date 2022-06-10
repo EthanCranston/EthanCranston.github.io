@@ -2,6 +2,7 @@ import dataImage from "../images/data.jpg"
 import coloradoImage from "../images/coloradoPath.png"
 import websiteImage from "../data/EthanLogo1.svg"
 import autoClickerImage from "../images/autoClickerExample.jpg"
+import mathImage from "../images/mathEquations.jpg"
 
 const allProjects = [ 
     {
@@ -23,10 +24,10 @@ const allProjects = [
         link: "thiswebsite",
     },
     {
-        title: "Crosswords",
-        description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
-        image: dataImage,
-        link: "crossword",
+        title: "Equation Finder",
+        description: "A program that will find an equation based on the solution",
+        image: mathImage,
+        link: "equationfinder",
     },
     {
         title: "Crosswords",

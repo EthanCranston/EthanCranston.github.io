@@ -9,6 +9,8 @@ import PuzzleSolver from "./projects/puzzleSolver";
 import DPPathfinder from "./projects/DPPathfinder";
 import ThisWebsite from "./projects/thisWebsite";
 import AutoClicker from "./projects/autoClicker";
+import EquationFinder from "./projects/equationFinder";
+
 
 
 const allPages = {
@@ -20,7 +22,8 @@ const allPages = {
     "puzzlesolver": <PuzzleSolver />,
     "dppathfinder": <DPPathfinder />,
     "thiswebsite": <ThisWebsite />,
-    "autoclicker": <AutoClicker />
+    "autoclicker": <AutoClicker />,
+    "equationfinder": <EquationFinder />
 }
 
 
