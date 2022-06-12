@@ -35,18 +35,4 @@ const DPPathfinder = () => {
 export default DPPathfinder
 
 
-let dpCode ='\
-// traverse table in reverse order\n\
-for (int w = _width - 2; w > -1; w--) {\n\
-    for (int h = 0; h < _height; h++) {\n\
-        //get current elevation from previously-generated elevation table\n\
-        curr_pos = _elevations.at(h).at(w);\n\
-\n\
-        //  calculate total distance for each possible movement   \n\
-        straight_dist = abs(curr_pos - _elevations.at(h).at(w + 1)) + _dynamic_paths.at(h).at(w + 1);\n\
-        down_dist = abs(curr_pos - _elevations.at(h + 1).at(w + 1)) + _dynamic_paths.at(h + 1).at(w + 1);\n\
-        up_dist = abs(curr_pos - _elevations.at(h - 1).at(w + 1)) + _dynamic_paths.at(h - 1).at(w + 1);\n\
-\n\
-        //choose the shortest path and update the path table\n\
-        _dynamic_paths.at(h).at(w) = min(straight_dist, up_dist, down_dist)\n\
-    }\n'
+let dpCode ='// traverse table in reverse order\nfor (int w = _width - 2; w > -1; w--) {\n    for (int h = 0; h < _height; h++) {\n        //get current elevation from previously-generated elevation table\n        curr_pos = _elevations.at(h).at(w);\n\n        //  calculate total distance for each possible movement   \n        straight_dist = abs(curr_pos - _elevations.at(h).at(w + 1)) + _dynamic_paths.at(h).at(w + 1);\n        down_dist = abs(curr_pos - _elevations.at(h + 1).at(w + 1)) + _dynamic_paths.at(h + 1).at(w + 1);\n        up_dist = abs(curr_pos - _elevations.at(h - 1).at(w + 1)) + _dynamic_paths.at(h - 1).at(w + 1);\n\n        //choose the shortest path and update the path table\n        _dynamic_paths.at(h).at(w) = min(straight_dist, up_dist, down_dist)\n    }\n'

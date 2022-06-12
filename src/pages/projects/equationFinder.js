@@ -36,20 +36,11 @@ const EquationFinder = () => {
             This makes combining and evaluating equation efficient. Below is a simplified outline of the equation class.</p>
             <CodeSnippet language="c"code={equationCode}/>
         <br></br>
-        <p>View the full project here: <a href="https://github.com/ecranston405/EquationFinder" target="_blank">https://github.com/ecranston405/EquationFinder</a></p>
+        <p>View the full project here: <a href="https://github.com/ecranston405/EquationFinder">https://github.com/ecranston405/EquationFinder</a></p>
         </>
     );
 };
 
 export default EquationFinder
 
-
-let equationCode = '\
-class Equation {\n\
-    MathOperator _operation;\n\
-    Equation* _eq1; // right side of operator\n\
-    Equation* _eq2; // left side of operator\n\
-    double _value;\n\
-    int _order;\n\
-    double _unit;\n\
-}'
+let equationCode = 'class Equation {\nMathOperator _operation;\nEquation* _eq1; // right side of operator\nEquation* _eq2; // left side of operator\ndouble _value;\nint _order;\ndouble _unit;\n}'
