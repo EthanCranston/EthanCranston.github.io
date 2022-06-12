@@ -3,6 +3,7 @@ import coloradoImage from "../images/coloradoPath.png"
 import websiteImage from "../data/EthanLogo1.svg"
 import autoClickerImage from "../images/autoClickerExample.jpg"
 import mathImage from "../images/mathEquations.jpg"
+import clueGame from "../images/clueGame.jpg"
 
 const allProjects = [ 
     {
@@ -30,14 +31,14 @@ const allProjects = [
         link: "equationfinder",
     },
     {
-        title: "Crosswords",
-        description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
-        image: dataImage,
-        link: "crossword",
+        title: "Clue Game",
+        description: "An digital rendition of the 1943 murder mystery board game",
+        image: clueGame,
+        link: "clue",
     },
     {
         title: "Crosswords",
-        description: "A project that takes in arbitry text, a difficult and ouputs a crossword puzzle with hints",
+        description: "A project that takes in arbitrary text, a difficult and outputs a crossword puzzle with hints",
         image: dataImage,
         link: "crossword",
     },

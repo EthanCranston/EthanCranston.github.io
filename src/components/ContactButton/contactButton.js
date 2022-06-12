@@ -1,7 +1,6 @@
 import React from "react";
-import "./Pages.css";
 
-const ContactPage = () => {
+const ContactButton = () => {
     const [showingEmail, setShowingEmail] = React.useState(false);
 
     
@@ -28,4 +27,4 @@ const ContactPage = () => {
       );
 };
 
-export default ContactPage
+export default ContactButton

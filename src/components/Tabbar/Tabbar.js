@@ -2,7 +2,6 @@ import React, { useCallback } from "react";
 import classNames from "classnames";
 import { AiFillHome } from "react-icons/ai";
 import { FaHammer } from "react-icons/fa";
-import { GrMail } from "react-icons/gr"
 import { ImUserTie } from "react-icons/im"
 import { useNavigate } from "react-router-dom";
 
@@ -16,8 +15,6 @@ const Tabbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         return <AiFillHome />;
       case "Projects":
         return <FaHammer />;
-      case "Contact":
-        return <GrMail />;
       case "Experience":
         return <ImUserTie />;
       default:

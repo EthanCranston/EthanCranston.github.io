@@ -23,5 +23,6 @@ div{
 }
 
 a{
-  @apply underline decoration-transparent hover:decoration-inherit transition duration-200 ease-in-out
+  @apply underline hover:no-underline
+  hover:text-yellow-500 
 }
