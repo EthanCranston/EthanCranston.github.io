@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc729e3c.css",
-    "main.js": "/static/js/main.b864b156.js",
+    "main.css": "/static/css/main.62abc829.css",
+    "main.js": "/static/js/main.f41ce2f5.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/EthanPortrait.jpg": "/static/media/EthanPortrait.ae00c7e1b035c5265b27.jpg",
     "static/media/clueGame.jpg": "/static/media/clueGame.d35c4299466f0f30f215.jpg",
     "static/media/data.jpg": "/static/media/data.85795b14534f317d53c1.jpg",
     "static/media/grandCanyonPath.png": "/static/media/grandCanyonPath.0f3207fab4b65981f088.png",
@@ -22,12 +23,12 @@
     "static/media/autoClickerUML.png": "/static/media/autoClickerUML.f14337bd07deb2de00e2.png",
     "index.html": "/index.html",
     "static/media/EthanLogo1.svg": "/static/media/EthanLogo1.5dc3cdbb816cacc68ced7974e2d60e72.svg",
-    "main.dc729e3c.css.map": "/static/css/main.dc729e3c.css.map",
-    "main.b864b156.js.map": "/static/js/main.b864b156.js.map",
+    "main.62abc829.css.map": "/static/css/main.62abc829.css.map",
+    "main.f41ce2f5.js.map": "/static/js/main.f41ce2f5.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc729e3c.css",
-    "static/js/main.b864b156.js"
+    "static/css/main.62abc829.css",
+    "static/js/main.f41ce2f5.js"
   ]
 }
