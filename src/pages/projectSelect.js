@@ -21,7 +21,7 @@ const ProjectSelect = () => {
     return (
         <>
             <h1 className='text-center'>My Projects:</h1>
-            <div className='flex justify-center'>
+            <div className='flex justify-center'>   
                 <div className='flex flex-wrap w-2/3 justify-center m-10  gap-8'>
                     {tiles}
                 </div>

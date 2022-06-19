@@ -18,7 +18,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         }
         setCurrentRoute("Home")
       }}>
-        <EthanLogo />
+        <EthanLogo className="select-none"/>
       </span>
 
       <ul className={styles.navItems}>

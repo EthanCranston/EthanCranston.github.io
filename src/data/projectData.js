@@ -1,4 +1,4 @@
-import dataImage from "../images/data.jpg"
+import crosswordImage from "../images/emptyPuzzle.jpg"
 import coloradoImage from "../images/coloradoPath.png"
 import websiteImage from "../data/EthanLogo1.svg"
 import autoClickerImage from "../images/autoClickerExample.jpg"
@@ -32,14 +32,14 @@ const allProjects = [
     },
     {
         title: "Clue Game",
-        description: "An digital rendition of the 1943 murder mystery board game",
+        description: "A digital rendition of the 1943 murder mystery board game",
         image: clueGame,
         link: "clue",
     },
     {
         title: "Crosswords",
-        description: "A project that takes in arbitrary text, a difficult and outputs a crossword puzzle with hints",
-        image: dataImage,
+        description: "A project that can generate a crossword puzzle with based on any text source",
+        image: crosswordImage,
         link: "crossword",
     },
 
