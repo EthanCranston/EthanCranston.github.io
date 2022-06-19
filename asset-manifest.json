@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.d695ea45.js",
-    "static/js/787.ac9e5380.chunk.js": "/static/js/787.ac9e5380.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.dc729e3c.css",
+    "main.js": "/static/js/main.b864b156.js",
+    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/clueGame.jpg": "/static/media/clueGame.d35c4299466f0f30f215.jpg",
+    "static/media/data.jpg": "/static/media/data.85795b14534f317d53c1.jpg",
+    "static/media/grandCanyonPath.png": "/static/media/grandCanyonPath.0f3207fab4b65981f088.png",
+    "static/media/coloradoPath.png": "/static/media/coloradoPath.bcc685733c917a5b7324.png",
+    "static/media/code.jpg": "/static/media/code.e58159172ab1e04d5225.jpg",
+    "static/media/mathEquations.jpg": "/static/media/mathEquations.4f79e6efbaa882492a1a.jpg",
+    "static/media/eagle.jpg": "/static/media/eagle.87c4020ccdaa01221cce.jpg",
+    "static/media/clueBoard.jpg": "/static/media/clueBoard.e46e9bcb4a2dd03f5747.jpg",
+    "static/media/autoClickerExample.jpg": "/static/media/autoClickerExample.6855b3475bc1c02cd570.jpg",
+    "static/media/autoClickerAddMenu.jpg": "/static/media/autoClickerAddMenu.ff7c07ce727515a5213e.jpg",
+    "static/media/software.jpg": "/static/media/software.dc19e5c2601b9f1baea1.jpg",
+    "static/media/kilimanjaroPath.png": "/static/media/kilimanjaroPath.2655f3f45db69d8355c4.png",
+    "static/media/rockIt.jpg": "/static/media/rockIt.0ab3cdf2ed36fd5b2e20.jpg",
+    "static/media/sketchup.jpg": "/static/media/sketchup.90833fd6ea6f9f8fb673.jpg",
+    "static/media/mines.jpg": "/static/media/mines.32fef06cb1cd87bdef84.jpg",
+    "static/media/communityResources.jpg": "/static/media/communityResources.8aad6eed06e2f9337f3e.jpg",
+    "static/media/autoClickerUML.png": "/static/media/autoClickerUML.f14337bd07deb2de00e2.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.d695ea45.js.map": "/static/js/main.d695ea45.js.map",
-    "787.ac9e5380.chunk.js.map": "/static/js/787.ac9e5380.chunk.js.map"
+    "static/media/EthanLogo1.svg": "/static/media/EthanLogo1.5dc3cdbb816cacc68ced7974e2d60e72.svg",
+    "main.dc729e3c.css.map": "/static/css/main.dc729e3c.css.map",
+    "main.b864b156.js.map": "/static/js/main.b864b156.js.map",
+    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d695ea45.js"
+    "static/css/main.dc729e3c.css",
+    "static/js/main.b864b156.js"
   ]
 }
