@@ -8,7 +8,7 @@ const HomePage = () => {
     return (
         <>
         <h1>About</h1>
-        <div className="flex">
+        <div className="flex gap-8">
             <p>Born and raised in Golden, Colorado.</p>
             <CaptionedImages image={EthanPortrait} alt="Portrait of Ethan Cranston" maxHeight={72}/>
         </div>

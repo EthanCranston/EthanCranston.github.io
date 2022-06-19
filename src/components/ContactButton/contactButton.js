@@ -5,7 +5,7 @@ const ContactButton = () => {
 
     
     const nothingToScrapeHere = () => {
-      return ['nothingecnothing'.slice(7,9) + 'rxnston'.replace('x', 'a'), 'minesoedu'.replace('o','.')]
+      return ['nothingecnothing'.slice(7,9) + 'race to the enston'.replace('ace to the e', 'a'), 'mines is an edu'.replace(' is an ','.')]
     }
     var component;
     if (showing){
