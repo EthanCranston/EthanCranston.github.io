@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[879],{5879:function(e,n,r){r.r(n);r(2791),r(4311);var s=r(184);n.default=function(){return(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)("h1",{children:"Crossword Puzzle Generator"}),(0,s.jsx)("p",{children:"Puzzles from any era!"})]})}},4311:function(){}}]);
+//# sourceMappingURL=879.de91e08e.chunk.js.map
