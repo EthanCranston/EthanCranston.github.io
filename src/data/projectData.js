@@ -4,6 +4,7 @@ import websiteImage from "../data/EthanLogo1.svg"
 import autoClickerImage from "../images/autoClickerExample.jpg"
 import mathImage from "../images/mathEquations.jpg"
 import clueGame from "../images/clueGame.jpg"
+import planePuzzle from "../images/3x3PuzzlePlanet.jpg"
 
 const allProjects = [ 
     {
@@ -41,6 +42,12 @@ const allProjects = [
         description: "A project that can generate a crossword puzzle with based on any text source",
         image: crosswordImage,
         link: "crossword",
+    },
+    {
+        title: "Scramble Squares",
+        description: "A project that can generate a crossword puzzle with based on any text source",
+        image: planePuzzle,
+        link: "scramblesquares",
     },
 
 ]

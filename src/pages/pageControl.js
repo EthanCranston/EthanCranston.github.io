@@ -6,12 +6,12 @@ const ProjectSelect = React.lazy(() => import("./projectSelect"));
 const ExperiencePage = React.lazy(() => import("./experience"));
 const Page404 = React.lazy(() => import("./page404"));
 const Crossword = React.lazy(() => import("./projects/crossword"));
-const PuzzleSolver = React.lazy(() => import("./projects/puzzleSolver"));
 const DPPathfinder = React.lazy(() => import("./projects/DPPathfinder"));
 const ThisWebsite = React.lazy(() => import("./projects/thisWebsite"));
 const AutoClicker = React.lazy(() => import("./projects/autoClicker"));
 const EquationFinder = React.lazy(() => import("./projects/equationFinder"));
 const Clue = React.lazy(() => import("./projects/clue"));
+const ScrambleSquares = React.lazy(() => import("./projects/scrambleSquares"))
 
 
 const allPages = {
@@ -19,12 +19,12 @@ const allPages = {
     "Projects": <ProjectSelect/>,
     "Experience": <ExperiencePage/>,
     "crossword": <Crossword/>,
-    "puzzlesolver": <PuzzleSolver/>,
     "dppathfinder": <DPPathfinder/>,
     "thiswebsite": <ThisWebsite/>,
     "autoclicker": <AutoClicker/>,
     "equationfinder": <EquationFinder/>,
-    "clue": <Clue/>
+    "clue": <Clue/>,
+    "scramblesquares": <ScrambleSquares/>
 }
 
 
