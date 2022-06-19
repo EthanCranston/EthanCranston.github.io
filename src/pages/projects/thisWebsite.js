@@ -8,7 +8,7 @@ const ThisWebsite = () => {
         <p>I designed and coded this website myself using <a href="https://reactjs.org/">React</a>
         , <a href="https://tailwindcss.com/">Tailwind</a>, <a href="https://prismjs.com/">Prism</a>
         , and <a href="https://www.mathjax.org/">MathJax</a>.</p>
-        <p>I also host the website myself on a server I build, which runs ____.</p>
+        <p>Take a look around!</p>
         </>
     );
 };
