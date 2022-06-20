@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.5544c245.css",
-    "main.js": "/static/js/main.72e70d3d.js",
+    "main.css": "/static/css/main.8c8c847f.css",
+    "main.js": "/static/js/main.f05e133d.js",
     "static/css/532.b4463e43.chunk.css": "/static/css/532.b4463e43.chunk.css",
     "static/js/532.b0ea62a0.chunk.js": "/static/js/532.b0ea62a0.chunk.js",
     "static/css/33.8e9db04e.chunk.css": "/static/css/33.8e9db04e.chunk.css",
-    "static/js/33.a80df85d.chunk.js": "/static/js/33.a80df85d.chunk.js",
+    "static/js/33.27251b61.chunk.js": "/static/js/33.27251b61.chunk.js",
     "static/css/502.b4463e43.chunk.css": "/static/css/502.b4463e43.chunk.css",
     "static/js/502.d0eec0de.chunk.js": "/static/js/502.d0eec0de.chunk.js",
     "static/css/617.b4463e43.chunk.css": "/static/css/617.b4463e43.chunk.css",
@@ -47,18 +47,18 @@
     "static/media/solved3x3Puzzle.jpg": "/static/media/solved3x3Puzzle.11de46c2d32d50790668.jpg",
     "static/media/3x3PuzzleSolver.jpg": "/static/media/3x3PuzzleSolver.15da2a3c6ec13087cf04.jpg",
     "static/media/rockIt.jpg": "/static/media/rockIt.0ab3cdf2ed36fd5b2e20.jpg",
+    "static/media/logo.png": "/static/media/logo.ec65949684e3dba304d3.png",
     "static/media/sketchup.jpg": "/static/media/sketchup.90833fd6ea6f9f8fb673.jpg",
     "static/media/mines.jpg": "/static/media/mines.32fef06cb1cd87bdef84.jpg",
     "static/media/communityResources.jpg": "/static/media/communityResources.8aad6eed06e2f9337f3e.jpg",
     "static/media/autoClickerUML.png": "/static/media/autoClickerUML.f14337bd07deb2de00e2.png",
     "index.html": "/index.html",
-    "static/media/EthanLogo1.svg": "/static/media/EthanLogo1.5dc3cdbb816cacc68ced7974e2d60e72.svg",
-    "main.5544c245.css.map": "/static/css/main.5544c245.css.map",
-    "main.72e70d3d.js.map": "/static/js/main.72e70d3d.js.map",
+    "main.8c8c847f.css.map": "/static/css/main.8c8c847f.css.map",
+    "main.f05e133d.js.map": "/static/js/main.f05e133d.js.map",
     "532.b4463e43.chunk.css.map": "/static/css/532.b4463e43.chunk.css.map",
     "532.b0ea62a0.chunk.js.map": "/static/js/532.b0ea62a0.chunk.js.map",
     "33.8e9db04e.chunk.css.map": "/static/css/33.8e9db04e.chunk.css.map",
-    "33.a80df85d.chunk.js.map": "/static/js/33.a80df85d.chunk.js.map",
+    "33.27251b61.chunk.js.map": "/static/js/33.27251b61.chunk.js.map",
     "502.b4463e43.chunk.css.map": "/static/css/502.b4463e43.chunk.css.map",
     "502.d0eec0de.chunk.js.map": "/static/js/502.d0eec0de.chunk.js.map",
     "617.b4463e43.chunk.css.map": "/static/css/617.b4463e43.chunk.css.map",
@@ -83,7 +83,7 @@
     "692.3c81271a.chunk.js.map": "/static/js/692.3c81271a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5544c245.css",
-    "static/js/main.72e70d3d.js"
+    "static/css/main.8c8c847f.css",
+    "static/js/main.f05e133d.js"
   ]
 }
