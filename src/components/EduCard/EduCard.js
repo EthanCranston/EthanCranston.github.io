@@ -6,10 +6,10 @@ const EduCard = ({ title, company, date, image, subTitle }) => {
                     <img src={image} class={"h-48 w-full object-cover md:h-full md:w-48"} alt={company + " logo"}></img>
                 </div>
                 <div class="p-8">
-                    <div class="tracking-wide text-sm text-yellow-500 font-semibold">{date}</div>
-                    <h3 href="#" class="block mt-1 text-md leading-tight font-small text-black">{company}</h3>
-                    <h2 href="#" class="block mt-1 text-lg leading-tight font-medium text-black">{title}</h2>
-                    <div class="tracking-wide text-sm font-semibold">{subTitle}</div>
+                    <div class="tracking-wide text-sm text-amber-500">{date}</div>
+                    <div href="#" class="block mt-1 text-xl leading-tight font-medium font-bold">{company}</div>
+                    <div href="#" class="tracking-wide text-lg">{title}</div>
+                    <div class="tracking-wide">{subTitle}</div>
                 </div>
             </div>
         </div>

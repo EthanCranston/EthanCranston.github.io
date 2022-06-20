@@ -1,17 +1,17 @@
 h1 {
-    @apply text-4xl font-bold mt-5 selection:bg-yellow-200;
-  }
+    @apply text-4xl font-mono font-black mt-5 selection:bg-amber-400;
+}
 
-  h2 {
-    @apply text-3xl selection:bg-yellow-200 selection:bg-yellow-200;
-  }
+h2 {
+  @apply text-3xl font-mono font-bold selection:bg-amber-200 selection:bg-amber-400;
+}
 
 p{
-  @apply text-lg font-mono mt-3 selection:bg-yellow-200;
+  @apply text-lg font-mono mt-3 selection:bg-amber-400;
 }
 
 ul{
-  @apply text-lg font-mono ml-10 selection:bg-yellow-200;
+  @apply text-lg font-mono ml-10 selection:bg-amber-400;
 }
 
 img{
@@ -19,10 +19,10 @@ img{
 }
 
 div{
-  @apply selection:bg-yellow-200;
+  @apply font-mono selection:bg-amber-400;
 }
 
 a{
-  @apply underline hover:no-underline
-  hover:text-yellow-500 
+  @apply underline font-mono hover:no-underline
+  hover:text-amber-400 
 }

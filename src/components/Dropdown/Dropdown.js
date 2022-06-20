@@ -14,11 +14,11 @@ const Dropdown = ({ title, company, date, image, description }) => {
                     <img src={image} class={"h-48 w-full object-cover md:h-full md:w-48"} alt={company + " logo"}></img>
                 </div>
                 <div class="p-8">
-                    <div class="tracking-wide text-sm text-yellow-500 font-semibold">{date}</div>
-                    <h2 href="#" class="block mt-1 text-lg leading-tight font-medium text-black">{title}</h2>
-                    <div class="tracking-wide text-sm font-semibold">{company}</div>
-                    <div class="mt-2 text-slate-500">{isExpanded ? description : null}</div>
-                    <span class={"hover:underline cursor-pointer"} onClick={toggleExpansion}>{isExpanded ? "Show Less" : "Show More"}</span>
+                    <div class="tracking-wide text-sm text-amber-500">{date}</div>
+                    <h2 href="#" class="block mt-1 text-xl leading-tight font-medium font-bold">{title}</h2>
+                    <div class="tracking-wide text-lg">{company}</div>
+                    <div class="mt-2">{isExpanded ? description : null}</div>
+                    <span class={"underline text-sm hover:font-bold cursor-pointer"} onClick={toggleExpansion}>{isExpanded ? "Show Less" : "Show More"}</span>
                 </div>
             </div>
         </div>

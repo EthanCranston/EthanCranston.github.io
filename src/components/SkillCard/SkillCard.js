@@ -1,11 +1,12 @@
-import { BiTimeFive } from "react-icons/bi"
+//import { BiTimeFive } from "react-icons/bi"
+import {FiPlusSquare} from "react-icons/fi"
 
 
 const EduCard = ({ category, image, skills }) => {
     const skillElement = (name, num) => {
         let clocks = [];
         for (let x = 0; x < num; x++) {
-            clocks.push(<BiTimeFive />);
+            clocks.push(<FiPlusSquare />);
         };
 
         return (<><div class="flex">{name}</div> <div class="flex ml-2 mt-1"> {clocks} </div></>);
@@ -26,10 +27,8 @@ const EduCard = ({ category, image, skills }) => {
                     <img src={image} class={"h-48 w-full object-cover md:h-full md:w-48"} alt={category + " graphic"}></img>
                 </div>
                 <div class="p-8">
-                    <div class="tracking-wide text-sm text-yellow-500 font-semibold">{category}</div>
-                    <ul>
-                    <div class="grid grid-cols-2">{allSkills}</div>
-                    </ul>
+                    <div class="tracking-wide text-amber-500">{category}</div>
+                    <div class="grid grid-cols-2 pl-2 pt-1 gap-1">{allSkills}</div>     
                 </div>
                 </div>
             </div>

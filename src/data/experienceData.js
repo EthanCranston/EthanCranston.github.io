@@ -6,7 +6,7 @@ import comResImage from "../images/communityResources.jpg"
 const allExperience = [
     {
         title: "Software Engineering Intern",
-        company: "SketchUp",
+        company: "Trimble SketchUp",
         date: "May 2022 - Present",
         image: sketchupImage,
         desciption:

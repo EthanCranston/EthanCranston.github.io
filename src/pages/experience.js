@@ -60,8 +60,8 @@ const ExperiencePage = () => {
     allAchievements.forEach(element => {
         achievements.push(
             <EduCard
-                title={element.title}
-                company={element.company}
+                title={element.company}
+                company={element.title}
                 date={element.date}
                 image={element.image}
                 subTitle={element.subTitle}
@@ -84,9 +84,9 @@ const ExperiencePage = () => {
                 {education}
             </div>
             <h1>Skills</h1>
-            <p class="flex">Each <BiTimeFive class="m-1"/> represents an order of magnitude of experience in hours (ex. <BiTimeFive class="mt-1 ml-1"/><BiTimeFive class="mt-1 mr-1"/> = 100hrs)</p>
-
-            {skills}
+            <div>
+                {skills}
+            </div>
 
 
 
