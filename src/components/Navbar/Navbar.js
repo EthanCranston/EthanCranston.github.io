@@ -1,12 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import { ReactComponent as EthanLogo } from '../../data/EthanLogo1.svg';
+import logo from "../../images/logo.png"
 import classNames from "classnames";
 
 
 import styles from "./Navbar.module.css";
-
 
 const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
   const navigate = useNavigate();
@@ -18,7 +17,7 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
         }
         setCurrentRoute("Home")
       }}>
-        <EthanLogo className="select-none"/>
+        <img src={logo} alt="Logo"/>
       </span>
 
       <ul className={styles.navItems}>

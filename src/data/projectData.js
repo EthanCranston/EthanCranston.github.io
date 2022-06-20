@@ -1,6 +1,6 @@
 import crosswordImage from "../images/emptyPuzzle.jpg"
 import coloradoImage from "../images/coloradoPath.png"
-import websiteImage from "../data/EthanLogo1.svg"
+import websiteImage from "../images/logo.png"
 import autoClickerImage from "../images/autoClickerExample.jpg"
 import mathImage from "../images/mathEquations.jpg"
 import clueGame from "../images/clueGame.jpg"
