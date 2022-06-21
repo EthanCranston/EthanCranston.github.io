@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.079353aa.css",
-    "main.js": "/static/js/main.a98950fe.js",
+    "main.js": "/static/js/main.74cbb92b.js",
     "static/css/532.de86560d.chunk.css": "/static/css/532.de86560d.chunk.css",
     "static/js/532.f18f82b2.chunk.js": "/static/js/532.f18f82b2.chunk.js",
     "static/css/620.25ada2cb.chunk.css": "/static/css/620.25ada2cb.chunk.css",
-    "static/js/620.fdd8915c.chunk.js": "/static/js/620.fdd8915c.chunk.js",
+    "static/js/620.a7e17e5d.chunk.js": "/static/js/620.a7e17e5d.chunk.js",
     "static/css/502.de86560d.chunk.css": "/static/css/502.de86560d.chunk.css",
     "static/js/502.7d609e52.chunk.js": "/static/js/502.7d609e52.chunk.js",
     "static/css/617.de86560d.chunk.css": "/static/css/617.de86560d.chunk.css",
@@ -46,8 +46,8 @@
     "static/media/kilimanjaroPath.png": "/static/media/kilimanjaroPath.2655f3f45db69d8355c4.png",
     "static/media/solved3x3Puzzle.jpg": "/static/media/solved3x3Puzzle.11de46c2d32d50790668.jpg",
     "static/media/3x3PuzzleSolver.jpg": "/static/media/3x3PuzzleSolver.15da2a3c6ec13087cf04.jpg",
-    "static/media/logo2.jpg": "/static/media/logo2.3cc009f40afeffc570d7.jpg",
     "static/media/rockIt.jpg": "/static/media/rockIt.0ab3cdf2ed36fd5b2e20.jpg",
+    "static/media/logo3.jpg": "/static/media/logo3.82539984819efaeaae1f.jpg",
     "static/media/sketchup.jpg": "/static/media/sketchup.90833fd6ea6f9f8fb673.jpg",
     "static/media/mines.jpg": "/static/media/mines.32fef06cb1cd87bdef84.jpg",
     "static/media/communityResources.jpg": "/static/media/communityResources.8aad6eed06e2f9337f3e.jpg",
@@ -55,11 +55,11 @@
     "static/media/mouseClick.jpg": "/static/media/mouseClick.25f821837efd05b2bdbd.jpg",
     "index.html": "/index.html",
     "main.079353aa.css.map": "/static/css/main.079353aa.css.map",
-    "main.a98950fe.js.map": "/static/js/main.a98950fe.js.map",
+    "main.74cbb92b.js.map": "/static/js/main.74cbb92b.js.map",
     "532.de86560d.chunk.css.map": "/static/css/532.de86560d.chunk.css.map",
     "532.f18f82b2.chunk.js.map": "/static/js/532.f18f82b2.chunk.js.map",
     "620.25ada2cb.chunk.css.map": "/static/css/620.25ada2cb.chunk.css.map",
-    "620.fdd8915c.chunk.js.map": "/static/js/620.fdd8915c.chunk.js.map",
+    "620.a7e17e5d.chunk.js.map": "/static/js/620.a7e17e5d.chunk.js.map",
     "502.de86560d.chunk.css.map": "/static/css/502.de86560d.chunk.css.map",
     "502.7d609e52.chunk.js.map": "/static/js/502.7d609e52.chunk.js.map",
     "617.de86560d.chunk.css.map": "/static/css/617.de86560d.chunk.css.map",
@@ -85,6 +85,6 @@
   },
   "entrypoints": [
     "static/css/main.079353aa.css",
-    "static/js/main.a98950fe.js"
+    "static/js/main.74cbb92b.js"
   ]
 }
