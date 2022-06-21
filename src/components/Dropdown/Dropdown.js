@@ -8,7 +8,7 @@ const Dropdown = ({ title, company, date, image, description }) => {
     }
 
     return (
-        <div class="max-w-md m-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-full border-gray-500 border-b-2">
+        <div class="max-w-md m-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-full border-amber-500 border-b-2">
             <div class="md:flex">
                 <div class="md:shrink-0">
                     <img src={image} class={"h-48 w-full object-cover md:h-full md:w-48"} alt={company + " logo"}></img>
@@ -18,7 +18,7 @@ const Dropdown = ({ title, company, date, image, description }) => {
                     <h2 href="#" class="block mt-1 text-xl leading-tight font-medium font-bold">{title}</h2>
                     <div class="tracking-wide text-lg">{company}</div>
                     <div class="mt-2">{isExpanded ? description : null}</div>
-                    <span class={"underline text-sm hover:font-bold cursor-pointer"} onClick={toggleExpansion}>{isExpanded ? "Show Less" : "Show More"}</span>
+                    <span class={"text-sm hover:border-b-2 cursor-pointer border-amber-500 border-b-1"} onClick={toggleExpansion}>{isExpanded ? "Show Less" : "Show More"}</span>
                 </div>
             </div>
         </div>

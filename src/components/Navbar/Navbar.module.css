@@ -11,7 +11,7 @@
   }
   
   .navItem {
-    @apply w-22 hover:text-amber-500 cursor-pointer font-medium font-mono tracking-wide text-sm flex items-start justify-center selection:bg-amber-500;
+    @apply mx-4 hover:text-amber-500 cursor-pointer font-medium font-mono tracking-wide text-sm flex items-start justify-center selection:bg-amber-500;
   }
   
   .selectedNavItem {

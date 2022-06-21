@@ -16,10 +16,12 @@ const CaptionedImage = ({ image, caption, alt, maxHeight}) => {
     }
     
     return (
-        <div class={`bg-white/50 rounded-md p-2${pb}`}>
-            <img src={image} class={`max-w-md border-amber-500 border-b-2${heightSpec}`} alt={alt}></img>
-            <p class={"ml-2 mt-0 mb-0 text-sm"}>{caption}</p>
-
+        <div class={`p-2${pb}`}>
+            <img src={image} class={`max-w-md border-amber-500 rounded-md border-b-2
+            ${caption !== undefined ? ' rounded-bl-none': ''}${heightSpec}`} alt={alt}></img>
+            <div className="flex rounded-b-lg">
+                <p class={"ml-0 mt-0 mb-0 text-sm pl-1 pr-1 bg-amber-500 rounded-b-sm"}>{caption}</p>
+            </div>
         </div>
     );
 };

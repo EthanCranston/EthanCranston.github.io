@@ -7,6 +7,6 @@
 }
 
 .background{
-    @apply absolute h-full w-full m-0  text-white bg-black rounded-lg bg-opacity-20 hover:bg-opacity-90 border-b-2 border-amber-500 duration-200 cursor-pointer;
+    @apply absolute h-full w-full m-0  text-white bg-black rounded-lg bg-opacity-20 hover:bg-opacity-90  hover:bg-amber-500 border-b-2 border-amber-500 duration-200 cursor-pointer;
 }
 

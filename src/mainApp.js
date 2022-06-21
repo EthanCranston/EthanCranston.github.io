@@ -27,9 +27,10 @@ const MainApp = () => {
         currentRoute={currentRoute}
         setCurrentRoute={setCurrentRoute}
       />
-      
-      <div class={"m-5 pb-16 grid place-items-center"}>
-        <CurrentPage currentRoute={currentRoute}/>
+      <div className="m-5 pb-16 grid place-items-center">
+        <div className={"flex flex-col w-2/3 items-center"}>
+          <CurrentPage className={'flex-none w-64'} currentRoute={currentRoute}/>
+        </div>
       </div>
 
       <Tabbar
