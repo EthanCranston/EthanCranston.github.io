@@ -1,9 +1,5 @@
 .navbar {
-    @apply flex flex-row items-center justify-between px-4 h-18 rounded-b-3xl bg-white;
-  }
-  
-  .logo {
-    @apply w-28;
+    @apply flex flex-row items-center justify-between pr-4 h-18 rounded-b-3xl bg-white;
   }
   
   .navItems {
@@ -11,13 +7,9 @@
   }
   
   .navItem {
-    @apply mx-4 hover:text-amber-500 cursor-pointer font-medium font-mono tracking-wide text-sm flex items-start justify-center selection:bg-amber-500;
+    @apply mx-3 hover:text-amber-500 cursor-pointer font-medium font-mono tracking-wide text-sm flex items-start justify-center selection:bg-amber-500;
   }
   
   .selectedNavItem {
     @apply text-gray-700 border-b-2 border-amber-500;
-  }
-  
-  .actions {
-    @apply bg-white hover:bg-gray-50 border-2 border-gray-900 text-sm text-gray-900 py-3 px-5 rounded-lg font-medium tracking-wide leading-none;
   }

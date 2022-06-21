@@ -36,7 +36,8 @@ const EquationFinder = () => {
             This makes combining and evaluating equation efficient. Below is a simplified outline of the equation class.</p>
             <CodeSnippet language="c"code={equationCode}/>
         <br></br>
-        <p>View the full project here: <a href="https://github.com/ecranston405/EquationFinder">https://github.com/ecranston405/EquationFinder</a></p>
+        <p>View the full project here: <a
+        href="https://github.com/ecranston405/EquationFinder"><p>https://github.com/ecranston405/EquationFinderddddddddddddddddddddd</p></a></p>
         </>
     );
 };

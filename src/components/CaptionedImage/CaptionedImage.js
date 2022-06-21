@@ -16,7 +16,7 @@ const CaptionedImage = ({ image, caption, alt, maxHeight}) => {
     }
     
     return (
-        <div class={`p-2${pb}`}>
+        <div class={`flex flex-col items-center p-2${pb}`}>
             <img src={image} class={`max-w-md border-amber-500 rounded-md border-b-2
             ${caption !== undefined ? ' rounded-bl-none': ''}${heightSpec}`} alt={alt}></img>
             <div className="flex rounded-b-lg">

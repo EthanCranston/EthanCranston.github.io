@@ -17,9 +17,9 @@ const AutoClicker = () => {
             with the buttons on the cards. A second thread runs un parallel to monitor for the escape event, so that the program
             can be stop and started.
         </p>
-        <div class={'flex gap-10 place-items-center max-h-72 m-8'}>
-        <CaptionedImage image={exampleImage} caption={"Main user interface"} maxHeight={72}/>
-        <CaptionedImage image={addMenu} caption={"New instruction menu"} maxHeight={72}/>
+        <div class={'flex flex-wrap gap-8 justify-center'}>
+            <CaptionedImage image={exampleImage} caption={"Main user interface"} maxHeight={72}/>
+            <CaptionedImage image={addMenu} caption={"New instruction menu"} maxHeight={72}/>
         </div>
         
         <p>My program features a modular design that allows for the addition of different functionality. A simple "instruction" class

@@ -26,7 +26,7 @@ const MainApp = () => {
         currentRoute={currentRoute}
         setCurrentRoute={setCurrentRoute}
       />
-      <div className="flex flex-col items-center w-full">
+      <div className="flex flex-col items-center w-full overflow-hidden">
         <div className={"flex flex-col items-center w-2/3 mb-16"}>
           <CurrentPage currentRoute={currentRoute}/>
         </div>  

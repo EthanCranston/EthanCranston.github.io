@@ -11,13 +11,13 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
   const navigate = useNavigate();
   return (
     <nav className={styles.navbar}>
-      <span className={"h-full"} onClick={() => {
+      <span onClick={() => {
         if (window.location.pathname !== '/') {
           navigate("/")
         }
         setCurrentRoute("Home")
-      }}>
-        <img className="h-full p-2" src={logo} alt="Logo"/>
+      }} className="ml-2 h-full">
+        <img className="p-2 h-full" src={logo} alt="Logo"/>
       </span>
 
       <ul className={styles.navItems}>
