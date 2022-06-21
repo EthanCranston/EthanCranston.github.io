@@ -12,7 +12,7 @@ const Crossword = () => {
         <p>This command-line program automatically generates a crossword puzzle of any size. It finds how the words
             overlap, assigns each a number and generates corresponding hints.
         </p>
-        <div className="flex gap-8">
+        <div className="flex flex-wrap gap-8 justify-center">
             <CaptionedImage image={largeUnsolved} caption="Unsolved Puzzle"></CaptionedImage>
             <CaptionedImage image={largeSolved} caption="Solved Puzzle"></CaptionedImage>
         </div>

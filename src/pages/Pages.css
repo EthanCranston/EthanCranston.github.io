@@ -1,5 +1,5 @@
 h1 {
-    @apply text-4xl font-mono font-black mt-5 selection:bg-amber-400 border-amber-500 border-b-2;
+  @apply text-4xl text-center font-mono font-black mt-5 selection:bg-amber-400 border-amber-500 border-b-2;
 }
 
 h2 {
@@ -7,7 +7,7 @@ h2 {
 }
 
 p{
-  @apply text-lg font-mono mt-3 selection:bg-amber-400;
+  @apply text-lg text-center font-mono mt-3 selection:bg-amber-400;
 }
 
 ul{

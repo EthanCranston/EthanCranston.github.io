@@ -9,26 +9,26 @@ import grandCanyonImage from "../../images/grandCanyonPath.png"
 
 const DPPathfinder = () => {
     return (
-        <>
-        <h1>DP Path-Finding</h1>
-        <p>This program determines the most efficient path through a given terrain. It generates a grayscale map of the given 
-            elevation data with optimal paths plotted as an output.</p>
+        <div className="flex flex-col place-items-center w-full">
+            <h1>DP Path-Finding</h1>
+            <p>This program determines the most efficient path through a given terrain. It generates a grayscale map of the given 
+                elevation data with optimal paths plotted as an output.</p>
 
-        <div class='flex place-items-center'>
-            <CaptionedImage image={kiliImage} caption={"Path through Kilimanjaro"}/>
-            <CaptionedImage image={grandCanyonImage} caption={"Path through The Grand Canyon"}/>
-            <CaptionedImage image={coloradoImage} caption={"Path through The Rockies"}/>
-        </div>
-        <br></br>
-        <p>The program uses the given terrain elevation and finds the path left to right that experiences 
-            the least elevation change. The program also represents the elevations as a grayscale image. The optimal path from each
-            left pixel is plotted in blue, and the most optimal path is plotted in yellow.</p>
-        <br></br>
-        <CodeSnippet language="c"code={dpCode}/>
-        <p>This simplified code snippet shows the algorithm used to  efficiently calculate the path</p>
+            <div class='flex flex-wrap gap-8 justify-center'>
+                <CaptionedImage image={kiliImage} caption={"Path through Kilimanjaro"}/>
+                <CaptionedImage image={grandCanyonImage} caption={"Path through The Grand Canyon"}/>
+                <CaptionedImage image={coloradoImage} caption={"Path through The Rockies"}/>
+            </div>
+            <br></br>
+            <p>The program uses the given terrain elevation and finds the path left to right that experiences 
+                the least elevation change. The program also represents the elevations as a grayscale image. The optimal path from each
+                left pixel is plotted in blue, and the most optimal path is plotted in yellow.</p>
+            <br></br>
 
+            <CodeSnippet language="c"code={dpCode}/>
             
-        </>
+            <p>This simplified code snippet shows the algorithm used to  efficiently calculate the path</p> 
+        </div>
 
     );
 };

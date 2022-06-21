@@ -3,7 +3,7 @@
 }
 
 .tileDesc{
-    @apply text-center mx-1 mt-3 text-white cursor-pointer;
+    @apply mx-1 mt-3 text-white cursor-pointer;
 }
 
 .background{

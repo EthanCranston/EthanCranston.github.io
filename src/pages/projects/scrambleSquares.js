@@ -26,7 +26,7 @@ const PuzzleSolver = () => {
             combinations until the solution is found. The program's progress is shown in a live GUI that shows
             the current position and orientation of each tile.
         </p>
-        <div className="flex gap-8">
+        <div className="flex flex-wrap gap-8 justify-center">
             <CaptionedImage image={solvingProcess} caption="Live GUI" maxHeight={72}/>
             <CaptionedImage image={solvedPuzzle} caption="Solved Puzzle" maxHeight={72}/>
         </div>

@@ -6,7 +6,6 @@ import useNavigation from "./hooks/useNavigation";
 import navigationData from "./data/navigation";
 
 import Navbar from "./components/Navbar/Navbar";
-import Tabbar from "./components/Tabbar/Tabbar";
 import CurrentPage from "./pages/pageControl";
 
 
@@ -27,18 +26,11 @@ const MainApp = () => {
         currentRoute={currentRoute}
         setCurrentRoute={setCurrentRoute}
       />
-      <div className="m-5 pb-16 grid place-items-center">
-        <div className={"flex flex-col w-2/3 items-center"}>
-          <CurrentPage className={'flex-none w-64'} currentRoute={currentRoute}/>
-        </div>
+      <div className="flex flex-col items-center w-full">
+        <div className={"flex flex-col items-center w-2/3 mb-16"}>
+          <CurrentPage currentRoute={currentRoute}/>
+        </div>  
       </div>
-
-      <Tabbar
-        navigationData={navigationData}
-        currentRoute={currentRoute}
-        setCurrentRoute={setCurrentRoute}
-      />
-      
     </div>
   );
 };
