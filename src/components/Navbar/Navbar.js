@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import logo from "../../images/logo2.jpg"
+import logo from "../../images/logo3.jpg"
 import classNames from "classnames";
 
 
