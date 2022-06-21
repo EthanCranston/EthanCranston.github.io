@@ -15,7 +15,7 @@
   }
   
   .selectedNavItem {
-    @apply text-gray-700 border-b-2 border-gray-700 bg-gradient-to-b from-white to-gray-100;
+    @apply text-gray-700 border-b-2 border-amber-500;
   }
   
   .actions {

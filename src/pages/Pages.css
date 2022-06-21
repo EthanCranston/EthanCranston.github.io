@@ -1,5 +1,5 @@
 h1 {
-    @apply text-4xl font-mono font-black mt-5 selection:bg-amber-400;
+    @apply text-4xl font-mono font-black mt-5 selection:bg-amber-400 border-amber-500 border-b-2;
 }
 
 h2 {
@@ -24,5 +24,5 @@ div{
 
 a{
   @apply underline font-mono hover:no-underline
-  hover:text-amber-400 
+  hover:text-amber-500 
 }

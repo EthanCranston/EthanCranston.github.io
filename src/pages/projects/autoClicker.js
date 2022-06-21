@@ -8,7 +8,7 @@ import UMLDiagram from "../../images/autoClickerUML.png"
 const AutoClicker = () => {
     return (
         <>
-        <h1>Custom Auto Clicker</h1>
+        <h1 className="border-amber-500 border-b-2">Custom Auto Clicker</h1>
         <p>When looking for an auto clicker, most of the options I found online either lacked the
             functionality I wanted, came from suspicious websites, or were not free. To solve this, I wrote own program 
             using Python and PyQt6.</p>

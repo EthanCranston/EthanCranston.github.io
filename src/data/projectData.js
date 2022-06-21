@@ -1,6 +1,6 @@
 import crosswordImage from "../images/emptyPuzzle.jpg"
 import coloradoImage from "../images/coloradoPath.png"
-import websiteImage from "../images/logo.png"
+import websiteImage from "../images/logo2.jpg"
 import autoClickerImage from "../images/mouseClick.jpg"
 import mathImage from "../images/mathEquations.jpg"
 import clueGame from "../images/clueGame.jpg"
