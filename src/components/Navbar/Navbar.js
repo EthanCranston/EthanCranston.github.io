@@ -15,8 +15,8 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
     setCurrentRoute(location)
   }
   return (
-    <nav className="flex flex-row w-full items-center justify-between h-14 md:h-18 rounded-b-2xl md:rounded-b-3xl bg-white">
-        <img className="py-3 md:pl-6 pl-4 h-full" src={logo} alt="Logo" onClick={() => updateRoute("Home")}/>
+    <nav className="flex flex-row w-full items-center justify-between h-18 rounded-b-2xl md:rounded-b-3xl bg-white">
+        <img className="object-contain py-3 md:pl-6 pl-1 h-full" src={logo} alt="Logo" onClick={() => updateRoute("Home")}/>
         <div className="flex flex-row pb-3 pr-4">
           {navigationData.map((item, index) => (
           <p className={classNames([

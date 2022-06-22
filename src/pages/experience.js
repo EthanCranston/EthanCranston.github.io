@@ -1,6 +1,5 @@
 import React from "react";
 import "./Pages.css";
-import { BiTimeFive } from "react-icons/bi"
 
 import Dropdown from "../components/Dropdown/Dropdown";
 
