@@ -9,15 +9,12 @@ const Tile = ({ title, description, image, link }) => {
 
     return (
         <div class={"relative w-60 h-60 bg-cover rounded-lg"} onClick={() => { navigate(link) }}>
-
-            <img src={image} class={"absolute w-60 h-60 object-cover rounded-lg"} alt={"Project" + title}></img>
+            <img src={image} class={"absolute w-full h-full object-cover rounded-lg"} alt={"Project" + title}></img>
             <div class={styles.background}>
                 <h1 class={styles.tileTitle}> {title}</h1>
                 <p class={styles.tileDesc}> {description}</p>
             </div>
         </div>
-
-
     );
 };
 

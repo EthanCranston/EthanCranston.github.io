@@ -29,7 +29,6 @@ const allPages = {
 
 
 const CurrentPage = ({ currentRoute }) => {
-
     let page = allPages[currentRoute];
     if (!page) page = <Page404/>;
 

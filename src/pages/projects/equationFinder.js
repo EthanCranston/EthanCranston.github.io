@@ -15,7 +15,7 @@ const EquationFinder = () => {
         <p>The program takes in the units and value of the givens and solution to a problem, then recursively 
             structures equations until a valid answer is found. As an example, take this simple inelastic collision 
             story problem:</p>
-        <p class="ml-16 mr-16"><i>Joe has a mass of 17kg and is sliding down a snowy hill with a velocity of 5m/s. 
+        <p class="md:w-2/3 my-5"><i>Joe has a mass of 17kg and is sliding down a snowy hill with a velocity of 5m/s. 
             His brother has a mass of 23kg and is sliding down the same hill with a velocity of 3m/s. 
             The two boys collide and slide down the hill together. 
             Calculate the resulting velocity of the two boys.</i></p>

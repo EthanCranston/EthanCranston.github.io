@@ -17,7 +17,7 @@ class CodeSnippet extends React.Component {
     }
     render() {
         return (
-            <div className="w-full">
+            <div className="max-w-full">
                 <pre  className={'rounded-md border-amber-500 border-b-2'}>
                     <code className={`language-${this.language}`}>
                         {this.code}

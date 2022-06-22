@@ -20,13 +20,10 @@ const ProjectSelect = () => {
 
     return (
         <>
-            <h1 className='text-center'>My Projects:</h1>
-            <div className='flex justify-center'>   
-                <div className='flex flex-wrap w-2/3 justify-center m-10 gap-8'>
-                    {tiles}
-                </div>
-            </div>
-            
+            <h1>My Projects:</h1>
+            <div className='flex flex-wrap justify-center mt-10 gap-8'>
+                {tiles}
+            </div> 
         </>
     );
 };

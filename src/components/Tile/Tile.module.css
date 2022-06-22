@@ -1,5 +1,5 @@
 .tileTitle{
-    @apply text-center m-1  text-white cursor-pointer border-b-0;
+    @apply text-center m-1 text-white cursor-pointer border-b-0;
 }
 
 .tileDesc{

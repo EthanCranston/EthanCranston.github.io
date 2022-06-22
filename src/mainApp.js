@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams} from "react-router-dom";
 
-import styles from "./App.module.css";
 import useNavigation from "./hooks/useNavigation";
 import navigationData from "./data/navigation";
 
@@ -18,7 +17,7 @@ const MainApp = () => {
 
   return (
     //<div className="md:container md:mx-auto">
-    <div className={styles.container}>
+    <div className="flex flex-col h-full w-full items-center overflow-hidden bg-gradient-to-t from-gray-100 to-gray-300">
     
       
       <Navbar
@@ -26,11 +25,9 @@ const MainApp = () => {
         currentRoute={currentRoute}
         setCurrentRoute={setCurrentRoute}
       />
-      <div className="flex flex-col items-center w-full overflow-hidden">
-        <div className={"flex flex-col items-center w-2/3 mb-16"}>
-          <CurrentPage currentRoute={currentRoute}/>
-        </div>  
-      </div>
+      <div className={"flex flex-col items-center md:w-2/3 w-full mb-16"}>
+        <CurrentPage currentRoute={currentRoute}/>
+      </div>  
     </div>
   );
 };
