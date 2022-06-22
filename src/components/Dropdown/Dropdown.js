@@ -15,10 +15,10 @@ const Dropdown = ({ title, company, date, image, description }) => {
                 </div>
                 <div class="p-8">
                     <div class="tracking-wide text-sm text-amber-500">{date}</div>
-                    <h2 href="#" class="block mt-1 text-xl leading-tight font-medium font-bold">{title}</h2>
+                    <h2 href="#" class="block mt-1 text-xl leading-tight">{title}</h2>
                     <div class="tracking-wide text-lg">{company}</div>
                     <div class="mt-2">{isExpanded ? description : null}</div>
-                    <span class={"text-sm hover:text-amber-500 cursor-pointer border-amber-500 border-b-1"} onClick={toggleExpansion}>{isExpanded ? "Show Less" : "Show More"}</span>
+                    <span class={"text-sm hover:border-b-2 cursor-pointer border-amber-500 border-b-1"} onClick={toggleExpansion}>{isExpanded ? "Show Less" : "Show More"}</span>
                 </div>
             </div>
         </div>

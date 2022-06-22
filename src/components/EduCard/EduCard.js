@@ -7,7 +7,7 @@ const EduCard = ({ title, company, date, image, subTitle }) => {
                 </div>
                 <div class="p-8">
                     <div class="tracking-wide text-sm text-amber-500">{date}</div>
-                    <div href="#" class="block mt-1 text-xl leading-tight font-medium font-bold">{company}</div>
+                    <h2 href="#" class="block mt-1 text-xl leading-tight">{company}</h2>
                     <div href="#" class="tracking-wide text-lg">{title}</div>
                     <div class="tracking-wide">{subTitle}</div>
                 </div>

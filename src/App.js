@@ -7,7 +7,7 @@ import MainApp from "./mainApp";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter >
         <Routes>
           <Route path="/" element={<MainApp />} />
           <Route path="/:projectName" element={<MainApp />} />
