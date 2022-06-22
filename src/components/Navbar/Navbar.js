@@ -5,41 +5,29 @@ import logo from "../../images/logo3.jpg"
 import classNames from "classnames";
 
 
-import styles from "./Navbar.module.css";
+
 
 const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
   const navigate = useNavigate();
+
+  const updateRoute= (location) => {
+    if (window.location.pathname !== '/') navigate("/")
+    setCurrentRoute(location)
+  }
   return (
-    <nav className={styles.navbar}>
-      <span onClick={() => {
-        if (window.location.pathname !== '/') {
-          navigate("/")
-        }
-        setCurrentRoute("Home")
-      }} className="ml-2 h-full">
-        <img className="p-2 h-full" src={logo} alt="Logo"/>
-      </span>
-
-      <ul className={styles.navItems}>
-        {navigationData.map((item, index) => (
-          <li
-            className={classNames([
-              styles.navItem,
-              currentRoute === item && styles.selectedNavItem,
-            ])}
+    <nav className="flex flex-row items-center justify-between h-18 rounded-b-3xl bg-white">
+        <img className="p-2 pl-4 h-full" src={logo} alt="Logo" onClick={() => updateRoute("Home")}/>
+        <div className="flex flex-row pb-4 pr-4">
+          {navigationData.map((item, index) => (
+          <p className={classNames([
+              "mx-2 hover:text-amber-500 cursor-pointer font-medium font-mono text-sm selection:bg-amber-500",
+              currentRoute === item && 'text-gray-700 border-b-2 border-amber-500',])}
             key={index}
-            onClick={() => {
-              if (window.location.pathname !== '/') {
-                navigate("/")
-              }
-
-              setCurrentRoute(item)
-            }}
-          >
+            onClick={() => updateRoute(item)}>
             {item}
-          </li>
+          </p>
         ))}
-      </ul>
+        </div>
       <div></div>
     </nav >
   );
