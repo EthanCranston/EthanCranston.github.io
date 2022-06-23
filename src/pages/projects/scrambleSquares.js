@@ -18,12 +18,12 @@ const PuzzleSolver = () => {
         <CaptionedImage maxHeight={72} image={boatImage}/>
         <MathComponent tex={String.raw`\frac{4^9 * 9!}{16} = 5,945,425,920`} />
         <p className="mt-0">The equation above calculates all of the possible combinations. 4^9 represents
-            each pieces orientation/rotation. 9! represents each tile's location.
+            each pieces orientation/rotation. 9! represents each tile&apos;s location.
             Divide by 16 to account for symmetrically equivalent solutions.</p>
 
         <p>One of my first programming projects was writing a brute-force algorithm to solve these puzzles.
             The user inputs which image appears on each side of each piece and the program tries different
-            combinations until the solution is found. The program's progress is shown in a live GUI that shows
+            combinations until the solution is found. The program&apos;s progress is shown in a live GUI that shows
             the current position and orientation of each tile.
         </p>
         <div className="flex flex-wrap gap-8 justify-center">

@@ -22,8 +22,8 @@ const AutoClicker = () => {
             <CaptionedImage image={addMenu} caption={'New instruction menu'} maxHeight={72}/>
         </div>
 
-        <p>My program features a modular design that allows for the addition of different functionality. A simple "instruction" class
-            can be extended to add any new commands. Left click, right click, mouse movement, course and fine delay are currently
+        <p>My program features a modular design that allows for the addition of different functionality. A simple &quot;instruction&quot;
+            class can be extended to add any new commands. Left click, right click, mouse movement, course and fine delay are currently
             implemented. In the future, keyboard shortcuts, typing, and dragging will be added.
         </p>
         <CaptionedImage image={UMLDiagram} caption={'UML Diagram'}/>

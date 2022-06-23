@@ -1,3 +1,4 @@
+import React from 'react'
 import sketchupImage from '../images/sketchup.jpg'
 import tcpsImage from '../images/Turnkeylogo.png'
 import rockitImage from '../images/rockIt.jpg'
@@ -26,8 +27,8 @@ const allExperience = [
     desciption:
             <>
                 <ul className="list-disc">
-                    <li>Proposed, designed, and developed RPA software that reduced the company's menial workload by 10x</li>
-                    <li>Wrote documentation for the company's new security enclave environment</li>
+                    <li>Proposed, designed, and developed RPA software that reduced the company&apos;s menial workload by 10x</li>
+                    <li>Wrote documentation for the company&apos;s new security enclave environment</li>
                     <li>Learned about a variety of network and hardware vulnerabilities</li>
                     <li>Gained experience with a variety of essential security practices</li>
                 </ul>

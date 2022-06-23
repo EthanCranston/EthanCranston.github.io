@@ -1,3 +1,5 @@
+import React from 'react'
+
 const EduCard = ({ title, company, date, image, subTitle }) => {
   return (
         <div className="max-w-md m-10 bg-white rounded-xl shadow-md overflow-hidden md:max-w-full border-amber-500 border-b-2">
