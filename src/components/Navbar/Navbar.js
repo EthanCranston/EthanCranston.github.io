@@ -4,9 +4,6 @@ import { useNavigate } from "react-router-dom";
 import logo from "../../images/logo.png"
 import classNames from "classnames";
 
-
-
-
 const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
   const navigate = useNavigate();
 
@@ -14,13 +11,15 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
     if (window.location.pathname !== '/') navigate("/")
     setCurrentRoute(location)
   }
+
   return (
-    <nav className="flex flex-row w-full items-center justify-between h-18 rounded-b-2xl md:rounded-b-3xl bg-white">
-        <img className="object-contain py-3 md:pl-6 pl-1 h-full" src={logo} alt="Logo" onClick={() => updateRoute("Home")}/>
-        <div className="flex flex-row pb-3 pr-4">
+    <nav className="w-full h-18 rounded-b-2xl md:rounded-b-3xl bg-white">
+      <div className="flex flex-row h-10 md:h-12 mt-4 md:mt-3 px-3 md:px-5 justify-between">
+        <img className="object-contain" src={logo} alt="Logo" onClick={() => updateRoute("Home")}/>
+        <div className="grow flex flex-row justify-around max-w-xxs">
           {navigationData.map((item, index) => (
           <p className={classNames([
-              "mx-2 md:mx-4 hover:text-amber-500 cursor-pointer font-medium font-mono text-sm selection:bg-amber-500",
+              "hover:text-amber-500 cursor-pointer font-mono text-sm selection:bg-amber-500",
               currentRoute === item && 'text-gray-700 titleUnderline',])}
             key={index}
             onClick={() => updateRoute(item)}>
@@ -28,7 +27,8 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
           </p>
         ))}
         </div>
-      <div></div>
+        <div></div>
+      </div>
     </nav >
   );
 };

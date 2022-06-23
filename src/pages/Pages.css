@@ -27,5 +27,5 @@ div{
 }
 
 a{
-  @apply underline font-mono max-w-full break-words px-2 hover:no-underline hover:text-amber-500 
+  @apply underline font-mono max-w-full break-words hover:no-underline hover:text-amber-500 
 }

@@ -13,6 +13,7 @@ module.exports = {
       },
       maxWidth: {
         '80': '20rem',
+        'xxs': '15rem'
       }
     },
     plugins: [],
