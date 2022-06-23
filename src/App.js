@@ -1,9 +1,9 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import MainApp from "./mainApp";
+import MainApp from './mainApp'
 
-function App() {
+function App () {
   return (
     <>
       <BrowserRouter >
@@ -13,7 +13,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

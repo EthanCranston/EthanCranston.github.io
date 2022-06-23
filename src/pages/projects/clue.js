@@ -1,14 +1,14 @@
-import React from "react";
-import "../Pages.css";
-import CaptionedImage from "../../components/CaptionedImage/CaptionedImage";
+import React from 'react'
+import '../Pages.css'
+import CaptionedImage from '../../components/CaptionedImage/CaptionedImage'
 
-import clueBoard from "../../images/clueBoard.jpg"
+import clueBoard from '../../images/clueBoard.jpg'
 
 const Clue = () => {
-    return (
+  return (
         <>
         <h1>Clue Game</h1>
-        <p>This project was completed as part of a Software Engineering course, which focused 
+        <p>This project was completed as part of a Software Engineering course, which focused
             on <a href="https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/">
             Solid Design</a> principles. The game allows the player to move, make accusations, and interact with the
             five AI opponents. The program can represent any arbitrary board layout or player combination by interpreting a csv file.</p>
@@ -19,7 +19,7 @@ const Clue = () => {
         </p>
         </>
 
-    );
-};
+  )
+}
 
 export default Clue

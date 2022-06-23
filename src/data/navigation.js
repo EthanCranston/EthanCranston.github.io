@@ -1,2 +1,2 @@
-let pages = ["Home", "Experience", "Projects"]
-export default pages;
+const pages = ['Home', 'Experience', 'Projects']
+export default pages

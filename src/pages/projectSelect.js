@@ -1,31 +1,30 @@
-import React from "react";
-import "./Pages.css";
+import React from 'react'
+import './Pages.css'
 
-import Tile from "../components/Tile/Tile";
-import allProjects from "../data/projectData";
+import Tile from '../components/Tile/Tile'
+import allProjects from '../data/projectData'
 
 const ProjectSelect = () => {
+  const tiles = []
 
-    let tiles = [];
-
-    allProjects.forEach(element => {
-        tiles.push(
+  allProjects.forEach(element => {
+    tiles.push(
             <Tile
                 title={element.title}
                 description={element.description}
                 image={element.image}
                 link={element.link}
             />)
-    });
+  })
 
-    return (
+  return (
         <>
             <h1>My Projects:</h1>
             <div className='flex flex-wrap justify-center mt-10 gap-8'>
                 {tiles}
-            </div> 
+            </div>
         </>
-    );
-};
+  )
+}
 
 export default ProjectSelect

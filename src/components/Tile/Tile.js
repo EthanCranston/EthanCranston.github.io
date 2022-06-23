@@ -1,21 +1,20 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-
-import styles from "./Tile.module.css";
+import styles from './Tile.module.css'
 
 const Tile = ({ title, description, image, link }) => {
-    const navigate = useNavigate();
+  const navigate = useNavigate()
 
-    return (
-        <div class={"relative w-60 h-60 bg-cover rounded-lg"} onClick={() => { navigate(link) }}>
-            <img src={image} class={"absolute w-full h-full object-cover rounded-lg"} alt={"Project" + title}></img>
-            <div class={styles.background}>
-                <h1 class={styles.tileTitle}> {title}</h1>
-                <p class={styles.tileDesc}> {description}</p>
+  return (
+        <div className={'relative w-60 h-60 bg-cover rounded-lg'} onClick={() => { navigate(link) }}>
+            <img src={image} className={'absolute w-full h-full object-cover rounded-lg'} alt={'Project' + title}></img>
+            <div className={styles.background}>
+                <h1 className={styles.tileTitle}> {title}</h1>
+                <p className={styles.tileDesc}> {description}</p>
             </div>
         </div>
-    );
-};
+  )
+}
 
-export default Tile;
+export default Tile

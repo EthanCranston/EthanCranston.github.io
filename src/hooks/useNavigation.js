@@ -1,17 +1,17 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback } from 'react'
 
 const useNavigation = () => {
-  const [route, setRoute] = useState("Home");
+  const [route, setRoute] = useState('Home')
 
   const selectAction = useCallback(
     (option) => {
-      if (route === option) return;
-      setRoute(option);
+      if (route === option) return
+      setRoute(option)
     },
     [route]
-  );
+  )
 
-  return { currentRoute: route, setCurrentRoute: selectAction };
-};
+  return { currentRoute: route, setCurrentRoute: selectAction }
+}
 
-export default useNavigation;
+export default useNavigation
