@@ -1,22 +1,23 @@
 import React from 'react'
-// import { BiTimeFive } from "react-icons/bi"
-import { FiPlusSquare } from 'react-icons/fi'
 
 const EduCard = ({ category, image, skills }) => {
-  const skillElement = (name, num) => {
-    const clocks = []
-    for (let x = 0; x < num; x++) {
-      clocks.push(<FiPlusSquare />)
-    };
-
-    return (<><div className="flex">{name}</div> <div className="flex ml-2 mt-1"> {clocks} </div></>)
+  const addEmphasis = (name, emphasis) => {
+    if (emphasis) {
+      return (
+        <p className='font-bold'>{name}</p>
+      )
+    } else {
+      return (
+      <p>{name}</p>
+      )
+    }
   }
 
   const allSkills = []
   // skillElement("Python", 5)
 
   skills.forEach(element => {
-    allSkills.push(skillElement(element[0], element[1]))
+    allSkills.push(addEmphasis(element[0], element[1]))
   })
 
   return (
@@ -25,9 +26,9 @@ const EduCard = ({ category, image, skills }) => {
                 <div className="md:shrink-0">
                     <img src={image} className={'h-48 w-full object-cover md:h-full md:w-48'} alt={category + ' graphic'}></img>
                 </div>
-                <div className="p-8">
-                    <div className="tracking-wide text-amber-500">{category}</div>
-                    <div className="grid grid-cols-2 pl-2 pt-1 gap-1">{allSkills}</div>
+                <div className="flex flex-col grow justify-center p-8">
+                    <div className="text-center text-amber-500">{category}</div>
+                    <div className="flex flex-col justify-center">{allSkills}</div>
                 </div>
                 </div>
             </div>

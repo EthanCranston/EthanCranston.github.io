@@ -7,13 +7,13 @@ const allSkills = [
     image: codeImage,
     skills:
         [
-          ['Python', 5],
-          ['C++', 3],
-          ['JavaScript', 3],
-          ['React', 2],
-          ['Java', 2],
-          ['SQL', 2],
-          ['MATLAB', 2]
+          ['Python', true],
+          ['C++', true],
+          ['JavaScript', false],
+          ['React', false],
+          ['Java', false],
+          ['SQL', false],
+          ['MATLAB', false]
         ]
   },
   {
@@ -21,13 +21,13 @@ const allSkills = [
     image: softwareImage,
     skills:
         [
-          ['Adobe Suite', 5],
-          ['git', 4],
-          ['Linux', 4],
-          ['VSCode', 3],
-          ['SoldidWorks', 3],
-          ['Cura', 2],
-          ['Mesh Mixer', 1]
+          ['Adobe Suite', true],
+          ['git', true],
+          ['Linux', true],
+          ['VSCode', true],
+          ['SoldidWorks', true],
+          ['Cura', false],
+          ['Mesh Mixer', false]
         ]
   }
 ]
