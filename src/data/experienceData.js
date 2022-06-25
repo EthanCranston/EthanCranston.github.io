@@ -3,6 +3,7 @@ import sketchupImage from '../images/sketchup.jpg'
 import tcpsImage from '../images/Turnkeylogo.png'
 import rockitImage from '../images/rockIt.jpg'
 import comResImage from '../images/communityResources.jpg'
+import i9Image from '../images/i9logo.jpg'
 
 const allExperience = [
   {
@@ -66,6 +67,18 @@ const allExperience = [
                 </ul>
             </>
 
+  },
+  {
+    title: 'Site Manager',
+    company: 'i9 Sports',
+    date: 'March 2017 - August 2019',
+    image: i9Image,
+    description:
+            <>
+                <ul className="list-disc">
+                    <li>Responsible for overseeing locations which hosted a variety of different sports leagues</li>
+                </ul>
+            </>
   }
 
 ]
