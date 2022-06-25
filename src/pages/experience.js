@@ -28,7 +28,7 @@ const ExperiencePage = () => {
                 company={element.company}
                 date={element.date}
                 image={element.image}
-                description={element.desciption}
+                description={element.description}
             />
     )
   })

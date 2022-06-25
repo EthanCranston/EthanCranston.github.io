@@ -10,11 +10,12 @@ const allExperience = [
     company: 'Trimble SketchUp',
     date: 'May 2022 - Present',
     image: sketchupImage,
-    desciption:
+    description:
             <>
                 <ul className="list-disc">
-                    <li>Worked in an Agile developement environment with a large codebase</li>
-                    <li>Wrote Cypress tests to establish Test Driven Developement</li>
+                    <li>Worked in an Agile development environment and contributed to daily Scrum meetings</li>
+                    <li>Solved bugs in large codebase</li>
+                    <li>Wrote Cypress tests to develope Test Driven Development</li>
                 </ul>
             </>
 
@@ -24,7 +25,7 @@ const allExperience = [
     company: 'Turnkey Cyber Security and Privacy Solutions',
     date: 'March 2021 - Present',
     image: tcpsImage,
-    desciption:
+    description:
             <>
                 <ul className="list-disc">
                     <li>Proposed, designed, and developed RPA software that reduced the company&apos;s menial workload by 10x</li>
@@ -40,7 +41,7 @@ const allExperience = [
     company: 'Rock It Relationships',
     date: 'September 2021 - May 2022',
     image: rockitImage,
-    desciption:
+    description:
             <>
                 <ul className="list-disc">
                     <li>Worked with a team with three other developers to create a high-quality social networking app</li>
@@ -56,12 +57,12 @@ const allExperience = [
     company: 'Community Resources Inc.',
     date: 'Fall 2020',
     image: comResImage,
-    desciption:
+    description:
             <>
                 <ul className="list-disc">
                     <li>Designed and built remote control hovercraft kits from scratch</li>
                     <li>Produced the kits using Mill, Lathe, CAD, and 3D Printing</li>
-                    <li>Taught a student how to assemble the kit and program a microcontroller to control the hovercraft</li>
+                    <li>Taught a student how to assemble the kit and program a micro-controller to control the hovercraft</li>
                 </ul>
             </>
 

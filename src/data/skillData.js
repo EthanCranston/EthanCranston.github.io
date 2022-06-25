@@ -1,5 +1,6 @@
 import codeImage from '../images/code.jpg'
 import softwareImage from '../images/software.jpg'
+import dataImage from '../images/data.jpg'
 
 const allSkills = [
   {
@@ -10,24 +11,37 @@ const allSkills = [
           'Python',
           'C++',
           'JavaScript',
-          'React',
           'Java',
-          'SQL',
-          'MATLAB'
+          'SQL'
         ]
   },
   {
-    category: 'Softwares',
+    category: 'Software Tools',
     image: softwareImage,
     skills:
         [
-          'Adobe Suite',
-          'git',
+          'Git',
           'Linux',
-          'VSCode',
-          'SoldidWorks',
-          'Cura',
-          'Mesh Mixer'
+          'Visual Studio Code',
+          'DevTools',
+          'Adobe Suite',
+          'SolidWorks'
+        ]
+  },
+  {
+    category: 'Frameworks and Libraries',
+    image: dataImage,
+    skills:
+        [
+          'Cypress',
+          'Vue',
+          'Qt',
+          'Selenium',
+          'OpenGL',
+          'SFML',
+          'React',
+          'Pandas',
+          'NumPy'
         ]
   }
 ]

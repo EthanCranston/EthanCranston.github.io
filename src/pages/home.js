@@ -7,7 +7,7 @@ import CaptionedImages from '../components/CaptionedImage/CaptionedImage'
 const HomePage = () => {
   return (
         <>
-        <h1 className="titleUnderline">About</h1>
+        <h1>Ethan Cranston</h1>
 
         <p>I was born and raised in Golden, Colorado.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -17,8 +17,7 @@ const HomePage = () => {
         <CaptionedImages image={EthanPortrait} alt="Portrait of Ethan Cranston" maxHeight={72}/>
 
         <br></br>
-        <h1 className="titleUnderline">Contact</h1>
-        <br></br>
+        <h1>Contact</h1>
         <ContactButton/>
         </>
   )

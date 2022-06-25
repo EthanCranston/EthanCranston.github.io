@@ -45,7 +45,7 @@ const allProjects = [
   },
   {
     title: 'Scramble Squares',
-    description: 'A project that can generate a crossword puzzle with based on any text source',
+    description: 'A program to automatically solves difficult puzzles',
     image: planePuzzle,
     link: 'scramblesquares'
   }
