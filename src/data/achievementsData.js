@@ -1,5 +1,5 @@
 import eagleImage from '../images/eagle.jpg'
-import icrImage from '../images/icr.png'
+import icrImage from '../images/icr.jpg'
 import minesImage from '../images/mines.jpg'
 
 const allAchievements = [

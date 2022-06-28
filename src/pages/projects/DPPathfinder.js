@@ -2,9 +2,9 @@ import React from 'react'
 import '../Pages.css'
 import CaptionedImage from '../../components/CaptionedImage/CaptionedImage'
 import CodeSnippet from '../../components/CodeSnippet/CodeSnippet'
-import coloradoImage from '../../images/coloradoPath.png'
-import kiliImage from '../../images/kilimanjaroPath.png'
-import grandCanyonImage from '../../images/grandCanyonPath.png'
+import coloradoImage from '../../images/coloradoPath.jpg'
+import kiliImage from '../../images/kilimanjaroPath.jpg'
+import grandCanyonImage from '../../images/grandCanyonPath.jpg'
 
 const DPPathfinder = () => {
   return (

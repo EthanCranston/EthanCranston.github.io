@@ -3,7 +3,7 @@ import '../Pages.css'
 import CaptionedImage from '../../components/CaptionedImage/CaptionedImage'
 import exampleImage from '../../images/autoClickerExample.jpg'
 import addMenu from '../../images/autoClickerAddMenu.jpg'
-import UMLDiagram from '../../images/autoClickerUML.png'
+import UMLDiagram from '../../images/autoClickerUML.jpg'
 
 const AutoClicker = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import sketchupImage from '../images/sketchup.jpg'
-import tcpsImage from '../images/Turnkeylogo.png'
+import tcpsImage from '../images/Turnkeylogo.jpg'
 import rockitImage from '../images/rockIt.jpg'
 import comResImage from '../images/communityResources.jpg'
 import i9Image from '../images/i9logo.jpg'
