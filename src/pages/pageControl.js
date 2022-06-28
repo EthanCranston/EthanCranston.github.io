@@ -12,6 +12,7 @@ const AutoClicker = React.lazy(() => import('./projects/autoClicker'))
 const EquationFinder = React.lazy(() => import('./projects/equationFinder'))
 const Clue = React.lazy(() => import('./projects/clue'))
 const ScrambleSquares = React.lazy(() => import('./projects/scrambleSquares'))
+const ClientManagement = React.lazy(() => import('./projects/clientManagement'))
 
 const allPages = {
   Home: <HomePage/>,
@@ -23,7 +24,8 @@ const allPages = {
   autoclicker: <AutoClicker/>,
   equationfinder: <EquationFinder/>,
   clue: <Clue/>,
-  scramblesquares: <ScrambleSquares/>
+  scramblesquares: <ScrambleSquares/>,
+  clientmanagement: <ClientManagement/>
 }
 
 const CurrentPage = ({ currentRoute }) => {

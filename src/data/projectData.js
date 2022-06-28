@@ -5,6 +5,7 @@ import autoClickerImage from '../images/mouseClick.jpg'
 import mathImage from '../images/mathEquations.jpg'
 import clueGame from '../images/clueGame.jpg'
 import planePuzzle from '../images/3x3PuzzlePlanet.jpg'
+import paperworkImage from '../images/paperwork.jpg'
 
 const allProjects = [
   {
@@ -12,6 +13,12 @@ const allProjects = [
     description: 'A custom software to automate simple mouse interaction',
     image: autoClickerImage,
     link: 'autoclicker'
+  },
+  {
+    title: 'Client Management System',
+    description: 'A custom solution to streamline customer paperwork',
+    image: paperworkImage,
+    link: 'clientmanagement'
   },
   {
     title: 'DP Pathfinder',
