@@ -9,12 +9,12 @@ const HomePage = () => {
         <>
         <h1>Ethan Cranston</h1>
 
-        <p>I was born and raised in Golden, Colorado.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        <p>I&apos;m a software engineer with a passion for creating elegant code. I hold myself to a high
+          standard of writing programs that are both maintainable and functional.  Take a look at my
+          projects to see these standards in action. </p>
         <CaptionedImages image={EthanPortrait} alt="Portrait of Ethan Cranston" maxHeight={72}/>
+        <p>I was born and raised in Golden, Colorado. I enjoy spending my
+        weekend hiking or skiing depending on the season.</p>
 
         <br></br>
         <h1>Contact</h1>

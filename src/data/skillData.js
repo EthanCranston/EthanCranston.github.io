@@ -24,6 +24,7 @@ const allSkills = [
           'Linux',
           'Visual Studio Code',
           'DevTools',
+          'Vim',
           'Adobe Suite',
           'SolidWorks'
         ]
