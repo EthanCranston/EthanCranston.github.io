@@ -6,13 +6,14 @@ import mathImage from '../images/mathEquations.jpg'
 import clueGame from '../images/clueGame.jpg'
 import planePuzzle from '../images/3x3PuzzlePlanet.jpg'
 import paperworkImage from '../images/paperwork.jpg'
+import bezier from '../images/bezier.jpg'
 
 const allProjects = [
   {
-    title: 'Auto Clicker',
-    description: 'A custom software to automate simple mouse interaction',
-    image: autoClickerImage,
-    link: 'autoclicker'
+    title: 'Bézier Curves',
+    description: 'An implementation of Catmull–Rom splines',
+    image: bezier,
+    link: 'bezier'
   },
   {
     title: 'Client Management System',
@@ -21,10 +22,10 @@ const allProjects = [
     link: 'clientmanagement'
   },
   {
-    title: 'DP Pathfinder',
-    description: 'An efficient algorithm to find a route through difficult terrain',
-    image: coloradoImage,
-    link: 'dppathfinder'
+    title: 'Auto Clicker',
+    description: 'A custom software to automate simple mouse interaction',
+    image: autoClickerImage,
+    link: 'autoclicker'
   },
   {
     title: 'This Website',
@@ -39,6 +40,18 @@ const allProjects = [
     link: 'equationfinder'
   },
   {
+    title: 'DP Pathfinder',
+    description: 'An efficient algorithm to find a route through difficult terrain',
+    image: coloradoImage,
+    link: 'dppathfinder'
+  },
+  {
+    title: 'Scramble Squares',
+    description: 'A program to automatically solves difficult puzzles',
+    image: planePuzzle,
+    link: 'scramblesquares'
+  },
+  {
     title: 'Clue Game',
     description: 'A digital rendition of the 1943 murder mystery board game',
     image: clueGame,
@@ -49,14 +62,7 @@ const allProjects = [
     description: 'A project that can generate a crossword puzzle with based on any text source',
     image: crosswordImage,
     link: 'crossword'
-  },
-  {
-    title: 'Scramble Squares',
-    description: 'A program to automatically solves difficult puzzles',
-    image: planePuzzle,
-    link: 'scramblesquares'
   }
-
 ]
 
 export default allProjects
