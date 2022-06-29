@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[617],{617:function(e,n,s){s.r(n);s(2791),s(4311);var r=s(184);n.default=function(){return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)("h1",{children:"Error 404"}),(0,r.jsx)("p",{children:"This page does not exist"})]})}},4311:function(){}}]);
-//# sourceMappingURL=617.27c7c524.chunk.js.map
