@@ -8,7 +8,10 @@ const Navbar = ({ navigationData, currentRoute, setCurrentRoute }) => {
   const navigate = useNavigate()
 
   const updateRoute = (location) => {
-    if (window.location.pathname !== '/') navigate('/')
+    if (window.location.hash !== '') {
+      history.pushState('', document.title, window.location.pathname)
+      navigate('/')
+    }
     setCurrentRoute(location)
   }
 
