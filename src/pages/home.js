@@ -13,7 +13,7 @@ const HomePage = () => {
           projects to see these standards in action. </p>
         <CaptionedImages image={EthanPortrait} alt="Portrait of Ethan Cranston" maxHeight={72}/>
         <p>I was born and raised in Golden, Colorado. I enjoy spending my
-        weekend hiking or skiing depending on the season.</p>
+        weekends hiking or skiing depending on the season.</p>
 
         <br></br>
         <h1>Contact</h1>

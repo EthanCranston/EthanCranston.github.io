@@ -7,11 +7,11 @@ const EquationFinder = () => {
   return (
         <>
         <h1>Reverse Equation Finder</h1>
-        <p>I occasionally found myself in the situation where I had a problem and the solution, but
+        <p>I occasionally found myself in the situation where I had a problem and its solution, but
             could not remember how I had originally solved it. To overcome this, I wrote a program in C++ that
             exhaustively checks possible equations until the correct one is found.
         </p>
-        <p>The program takes in the units and value of the givens and solution to a problem, then recursively
+        <p>The program takes in the units and values of the givens and of the solution, then recursively
             structures equations until a valid answer is found. As an example, take this simple inelastic collision
             story problem:</p>
         <p className="md:w-2/3 my-5"><i>Joe has a mass of 17kg and is sliding down a snowy hill with a velocity of 5m/s.

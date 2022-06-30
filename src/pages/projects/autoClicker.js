@@ -14,15 +14,15 @@ const AutoClicker = () => {
             using Python and PyQt6.</p>
         <br></br>
         <p>The user interface uses cards to display each instruction. The instructions can be reordered, edited, and deleted
-            with the buttons on the cards. A second thread runs un parallel to monitor for the escape event, so that the program
-            can be stop and started.
+            with the buttons on the cards. A second thread runs in parallel to monitor for the escape event, so that the program
+            can be stop and started at any time.
         </p>
         <div className={'flex flex-wrap gap-8 justify-center'}>
             <CaptionedImage image={exampleImage} caption={'Main user interface'} maxHeight={72}/>
             <CaptionedImage image={addMenu} caption={'New instruction menu'} maxHeight={72}/>
         </div>
 
-        <p>My program features a modular design that allows for the addition of different functionality. A simple &quot;instruction&quot;
+        <p>My program features a modular design that allows for easy additions and customizations. A simple &quot;instruction&quot;
             class can be extended to add any new commands. Left click, right click, mouse movement, course and fine delay are currently
             implemented. In the future, keyboard shortcuts, typing, and dragging will be added.
         </p>

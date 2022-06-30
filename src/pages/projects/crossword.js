@@ -18,9 +18,9 @@ const Crossword = () => {
         </div>
         <p>
             Any text file can be used as a source for words and hints. The provided text file is parsed and the
-            the difficulty of each word is calculated and used to select words based on the difficulty. Hints are generated
-            from dictionary entires or context from the text source. Words are sequentially inserted into the puzzle
-            so that they overlap and do not collide with other words.
+            the length and rarity of each word is calculated and used to select words based on the game difficulty.
+            Hints are generated from dictionary entires or context from the text source. Words are sequentially
+            inserted into the puzzle so that they overlap but do not collide with other words.
         </p>
         </>
   )

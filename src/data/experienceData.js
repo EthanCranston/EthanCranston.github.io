@@ -15,8 +15,9 @@ const allExperience = [
             <>
                 <ul className="list-disc">
                     <li>Worked in an Agile development environment and contributed to daily Scrum meetings</li>
-                    <li>Solved bugs in large codebase</li>
-                    <li>Wrote Cypress tests to develope Test Driven Development</li>
+                    <li>Solved bugs in a large codebase</li>
+                    <li>Wrote Cypress tests and used Test Driven Development</li>
+                    <li>Implemented visual testing to verify visual components</li>
                 </ul>
             </>
 
@@ -46,8 +47,8 @@ const allExperience = [
             <>
                 <ul className="list-disc">
                     <li>Worked with a team with three other developers to create a high-quality social networking app</li>
+                    <li>Worked with experts to develop app architecture</li>
                     <li>Established and maintained a secure software development lifecycle</li>
-                    <li>Used React Native to help develop the app frontend</li>
                 </ul>
             </>
 
@@ -61,9 +62,10 @@ const allExperience = [
     description:
             <>
                 <ul className="list-disc">
-                    <li>Designed and built remote control hovercraft kits from scratch</li>
-                    <li>Produced the kits using Mill, Lathe, CAD, and 3D Printing</li>
-                    <li>Taught a student how to assemble the kit and program a micro-controller to control the hovercraft</li>
+                    <li>Designed, built and coded remote control hovercraft kits</li>
+                    <li>Produced the kits using the Mill, Lathe, CAD, and 3D Printing</li>
+                    <li>Taught a student how to assemble the kit and program a micro-controller to wirelessly
+                        control the hovercraft</li>
                 </ul>
             </>
 
@@ -76,7 +78,9 @@ const allExperience = [
     description:
             <>
                 <ul className="list-disc">
-                    <li>Responsible for overseeing locations which hosted a variety of different sports leagues</li>
+                    <li>Was responsible for overseeing field locations which
+                        hosted a variety of different sports leagues</li>
+                    <li>Coordinated coaches, players, parents, and referees</li>
                 </ul>
             </>
   }
