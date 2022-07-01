@@ -2,60 +2,68 @@ import React from 'react'
 import './Pages.css'
 
 import Dropdown from '../components/Dropdown/Dropdown'
-
 import EduCard from '../components/EduCard/EduCard'
-
 import SkillCard from '../components/SkillCard/SkillCard'
-
 import allExperience from '../data/experienceData'
-
 import allEducation from '../data/educationData'
-
 import allSkills from '../data/skillData'
-
 import allAchievements from '../data/achievementsData'
+import allActivities from '../data/activitiesData'
 
 const ExperiencePage = () => {
   const experience = []
   const education = []
   const skills = []
   const achievements = []
+  const activities = []
 
-  allExperience.forEach(element => {
+  for (const element of allExperience) {
     experience.push(
-            <Dropdown
-                title={element.title}
-                company={element.company}
-                date={element.date}
-                image={element.image}
-                description={element.description}
-            />
+      <Dropdown
+          title={element.title}
+          company={element.company}
+          date={element.date}
+          image={element.image}
+          description={element.description}
+      />
     )
-  })
+  }
 
-  allEducation.forEach(element => {
+  for (const element of allEducation) {
     education.push(
-            <EduCard
-                title={element.title}
-                company={element.company}
-                date={element.date}
-                image={element.image}
-                subTitle={element.subTitle}
-            />
+      <EduCard
+          title={element.title}
+          company={element.company}
+          date={element.date}
+          image={element.image}
+          subTitle={element.subTitle}
+      />
     )
-  })
+  }
 
-  allSkills.forEach(element => {
+  for (const element of allSkills) {
     skills.push(
-            <SkillCard
-                category={element.category}
-                image={element.image}
-                skills={element.skills}
-            />
+      <SkillCard
+          category={element.category}
+          image={element.image}
+          skills={element.skills}
+      />
     )
-  })
+  }
 
-  allAchievements.forEach(element => {
+  for (const element of allActivities) {
+    activities.push(
+      <Dropdown
+          title={element.title}
+          company={element.company}
+          date={element.date}
+          image={element.image}
+          description={element.description}
+        />
+    )
+  }
+
+  for (const element of allAchievements) {
     achievements.push(
             <EduCard
                 title={element.company}
@@ -65,37 +73,35 @@ const ExperiencePage = () => {
                 subTitle={element.subTitle}
             />
     )
-  })
+  }
 
   return (
-        <>
-            <h1>Experience</h1>
+    <>
+        <h1>Experience</h1>
+        <div>
+            {experience}
+        </div>
 
-            <div>
-                {experience}
-            </div>
+        <h1>Education</h1>
+        <div>
+            {education}
+        </div>
 
-            <h1>Education</h1>
-            <div>
-                {education}
-            </div>
-            <h1>Skills</h1>
-            <div>
-                {skills}
-            </div>
+        <h1>Skills</h1>
+        <div>
+            {skills}
+        </div>
 
-            <h1>Achievements</h1>
-            <div>
-                {achievements}
-            </div>
-            {/* <Dropdown
-            title={"Test Title Test Title"}
-            date={"April 2022 - June 2023"}
-            image={sketchupImage}
-            description={"TestDescription"}
-            /> */}
+        <h1>Activities</h1>
+        <div>
+            {activities}
+        </div>
 
-        </>
+        <h1>Achievements</h1>
+        <div>
+            {achievements}
+        </div>
+    </>
   )
 }
 

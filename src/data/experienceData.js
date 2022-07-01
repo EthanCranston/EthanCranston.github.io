@@ -2,7 +2,6 @@ import React from 'react'
 import sketchupImage from '../images/sketchup.jpg'
 import tcpsImage from '../images/Turnkeylogo.jpg'
 import rockitImage from '../images/rockIt.jpg'
-import comResImage from '../images/communityResources.jpg'
 import i9Image from '../images/i9logo.jpg'
 
 const allExperience = [
@@ -17,7 +16,7 @@ const allExperience = [
                     <li>Worked in an Agile development environment and contributed to daily Scrum meetings</li>
                     <li>Solved bugs in a large codebase</li>
                     <li>Wrote Cypress tests and used Test Driven Development</li>
-                    <li>Implemented visual testing to verify visual components</li>
+                    <li>Implemented visual testing to verify graphic components</li>
                 </ul>
             </>
 
@@ -49,23 +48,6 @@ const allExperience = [
                     <li>Worked with a team with three other developers to create a high-quality social networking app</li>
                     <li>Worked with experts to develop app architecture</li>
                     <li>Established and maintained a secure software development lifecycle</li>
-                </ul>
-            </>
-
-  },
-
-  {
-    title: 'STEM Mentor',
-    company: 'Community Resources Inc.',
-    date: 'Fall 2020',
-    image: comResImage,
-    description:
-            <>
-                <ul className="list-disc">
-                    <li>Designed, built and coded remote control hovercraft kits</li>
-                    <li>Produced the kits using the Mill, Lathe, CAD, and 3D Printing</li>
-                    <li>Taught a student how to assemble the kit and program a micro-controller to wirelessly
-                        control the hovercraft</li>
                 </ul>
             </>
 
