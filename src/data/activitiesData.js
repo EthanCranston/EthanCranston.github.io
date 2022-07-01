@@ -12,10 +12,10 @@ const allActivities = [
     description:
     <>
         <ul className="list-disc">
-            <li>Founded a non-profit that helps fund students&apos; personal tinkering projects</li>
+            <li>Founded a non-profit that helps fund students&apos; personal passion projects</li>
             <li>Successfully competed through several rounds of pitching to the Mines
                 Foundation&apos;s &quot;Philanthropy Tank&quot;</li>
-            <li>Managed thousands of dollars of organization funding</li>
+            <li>Managed a $2000 grant from the university</li>
         </ul>
     </>
   },
@@ -28,7 +28,7 @@ const allActivities = [
     <>
         <ul className="list-disc">
             <li>Designed, built and coded remote control hovercraft kits</li>
-            <li>Produced the kits using the Mill, Lathe, CAD, and 3D Printing</li>
+            <li>Produced the kits using the mill, lathe, CAD, and 3D printing</li>
             <li>Taught a student how to assemble the kit and program a micro-controller to wirelessly
                 control the hovercraft</li>
         </ul>
@@ -42,12 +42,12 @@ const allActivities = [
     description:
         <>
             <ul className="list-disc">
-                <li>Founded a mobile food company to serve shaved ice to the Denver Metro area</li>
+                <li>Founded a mobile food company to serve shaved ice throughout the Denver Metro area</li>
                 <li>Independently designed and constructed an up-to-code mobile food cart complete with
                     running water, propane heating, electrical supply, ice cooling, storage, and logistics systems
                 </li>
-                <li>Prototyped, design and created technical drawings for initial permit approval</li>
-                <li>Navigated paperwork and inspections to receive an official food cart license</li>
+                <li>Prototyped, designed and created technical drawings for initial permit approval</li>
+                <li>Navigated and facilitated paperwork and inspections to receive an official food cart license</li>
             </ul>
         </>
   }

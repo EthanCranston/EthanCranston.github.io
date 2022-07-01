@@ -10,13 +10,14 @@ const ContactButton = () => {
   if (showing) {
     component =
       <div>
-        <p>{nothingToScrapeHere().join('@')}</p>
+        <p className='underline text-blue-600'>
+          {nothingToScrapeHere().join('@')}</p>
      </div>
   } else {
     component =
       <p
         onClick={() => setShowing(true)}
-        className={'inline-block px-6 py-2.5 bg-gray-700 font-bold text-white rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-700 active:shadow-lg transition duration-150 ease-in-out'}
+        className={'inline-block px-6 py-2.5 bg-gray-700  border-amber-500 border-b-2 font-bold text-white rounded shadow-lg hover:bg-amber-500 active:bg-amber-600 transition duration-150 ease-in-out'}
       >
         Click for Details
       </p>

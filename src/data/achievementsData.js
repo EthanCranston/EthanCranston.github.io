@@ -10,11 +10,10 @@ const allAchievements = [
     company: 'ICR'
   },
   {
-    title: "Dean's list",
+    title: "Dean's List",
     image: minesImage,
-    date: 'Fall 2019 - Spring 2022',
+    date: 'All Semesters',
     company: 'Colorado School of Mines'
-
   },
   {
     title: 'Eagle Scout',
