@@ -25,6 +25,7 @@ const ExperiencePage = () => {
           date={element.date}
           image={element.image}
           description={element.description}
+          key={element.title}
       />
     )
   }
@@ -37,6 +38,7 @@ const ExperiencePage = () => {
           date={element.date}
           image={element.image}
           subTitle={element.subTitle}
+          key={element.title}
       />
     )
   }
@@ -47,6 +49,7 @@ const ExperiencePage = () => {
           category={element.category}
           image={element.image}
           skills={element.skills}
+          key={element.category}
       />
     )
   }
@@ -59,6 +62,7 @@ const ExperiencePage = () => {
           date={element.date}
           image={element.image}
           description={element.description}
+          key={element.title}
         />
     )
   }
@@ -71,6 +75,7 @@ const ExperiencePage = () => {
                 date={element.date}
                 image={element.image}
                 subTitle={element.subTitle}
+                key={element.title}
             />
     )
   }

@@ -14,6 +14,7 @@ const ProjectSelect = () => {
                 description={element.description}
                 image={element.image}
                 link={element.link}
+                key={element.title}
             />)
   })
 
