@@ -7,8 +7,15 @@ import clueGame from '../images/clueGame.jpg'
 import planePuzzle from '../images/3x3PuzzlePlanet.jpg'
 import paperworkImage from '../images/paperwork.jpg'
 import bezier from '../images/bezier.jpg'
+import scraper from '../images/scraper.png'
 
 const allProjects = [
+  {
+    title: 'Security Scraping Tool',
+    description: 'A tool that generates a security report from scraped data',
+    image: scraper,
+    link: 'scrapingtool'
+  },
   {
     title: 'Bézier Curves',
     description: 'An implementation of Catmull–Rom splines',
