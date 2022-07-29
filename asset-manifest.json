@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ccf9c23b.css",
-    "main.js": "/static/js/main.3d411706.js",
+    "main.js": "/static/js/main.8a7b00d0.js",
     "static/css/532.c4f39dfb.chunk.css": "/static/css/532.c4f39dfb.chunk.css",
     "static/js/532.3b2d020e.chunk.js": "/static/js/532.3b2d020e.chunk.js",
     "static/css/996.c8e0af0a.chunk.css": "/static/css/996.c8e0af0a.chunk.css",
@@ -68,10 +68,10 @@
     "static/media/Turnkeylogo.jpg": "/static/media/Turnkeylogo.a89c2be502074e3e136e.jpg",
     "static/media/mouseClick.jpg": "/static/media/mouseClick.a96c626256f51da271ab.jpg",
     "static/media/rockIt.jpg": "/static/media/rockIt.18ac21e1c0f0ac00204d.jpg",
-    "static/media/logo.svg": "/static/media/logo.6e4e5b8519b01226f9515a9d585e16a5.svg",
+    "static/media/logo.svg": "/static/media/logo.05ab2b58ed8fe3b6b781e2b0a3c96df7.svg",
     "index.html": "/index.html",
     "main.ccf9c23b.css.map": "/static/css/main.ccf9c23b.css.map",
-    "main.3d411706.js.map": "/static/js/main.3d411706.js.map",
+    "main.8a7b00d0.js.map": "/static/js/main.8a7b00d0.js.map",
     "532.c4f39dfb.chunk.css.map": "/static/css/532.c4f39dfb.chunk.css.map",
     "532.3b2d020e.chunk.js.map": "/static/js/532.3b2d020e.chunk.js.map",
     "996.c8e0af0a.chunk.css.map": "/static/css/996.c8e0af0a.chunk.css.map",
@@ -106,6 +106,6 @@
   },
   "entrypoints": [
     "static/css/main.ccf9c23b.css",
-    "static/js/main.3d411706.js"
+    "static/js/main.8a7b00d0.js"
   ]
 }
