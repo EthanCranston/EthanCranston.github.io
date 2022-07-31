@@ -8,19 +8,26 @@ import planePuzzle from '../images/3x3PuzzlePlanet.jpg'
 import paperworkImage from '../images/paperwork.jpg'
 import bezier from '../images/bezier.jpg'
 import scraper from '../images/scraper.png'
+import visualImage from '../images/test-diffZoom.png'
 
 const allProjects = [
+  {
+    title: 'Visual Regression Testing',
+    description: 'Implemented visual testing to detect difficult regressions',
+    image: visualImage,
+    link: 'visualtesting'
+  },
+  {
+    title: 'Bézier Curves',
+    description: 'An implementation of Catmull-Rom splines',
+    image: bezier,
+    link: 'bezier'
+  },
   {
     title: 'Security Scraping Tool',
     description: 'A tool that generates a security report from scraped data',
     image: scraper,
     link: 'scrapingtool'
-  },
-  {
-    title: 'Bézier Curves',
-    description: 'An implementation of Catmull–Rom splines',
-    image: bezier,
-    link: 'bezier'
   },
   {
     title: 'Client Management System',

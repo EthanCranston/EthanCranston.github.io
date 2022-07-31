@@ -15,6 +15,7 @@ const ScrambleSquares = React.lazy(() => import('./projects/scrambleSquares'))
 const ClientManagement = React.lazy(() => import('./projects/clientManagement'))
 const BezierCurves = React.lazy(() => import('./projects/bezier'))
 const ScrapingTool = React.lazy(() => import('./projects/scrapingTool'))
+const VisualTesting = React.lazy(() => import('./projects/visualTesting'))
 
 const allPages = {
   Home: <HomePage/>,
@@ -29,7 +30,8 @@ const allPages = {
   scramblesquares: <ScrambleSquares/>,
   clientmanagement: <ClientManagement/>,
   bezier: <BezierCurves/>,
-  scrapingtool: <ScrapingTool/>
+  scrapingtool: <ScrapingTool/>,
+  visualtesting: <VisualTesting/>
 }
 
 const CurrentPage = ({ currentRoute }) => {
