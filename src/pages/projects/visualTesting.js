@@ -13,10 +13,10 @@ const VisualTesting = () => {
 
         <p>While writing regression tests for a 3D modeling software, I was faced with the challenge of verifying
             the state of the modeling canvas. The specific architecture of this web application made the canvas
-            a complete black box to <a href="https://www.cypress.io/">Cypress</a>, the testing framework I was using.
+            a complete black box to <a href="https://www.cypress.io/">Cypress</a>, the testing framework.
             To overcome this, I implemented visual testing to identify regressions with pixel differences.</p>
 
-        <div className='flex'>
+        <div className='flex flex-wrap gap-8 justify-center'>
             <CaptionedImage image={cubeImage} caption='Cube base image'/>
             <CaptionedImage image={cylinderImage} caption='Cylinder regression'/>
         </div>
