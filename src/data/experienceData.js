@@ -1,14 +1,21 @@
 import React from 'react'
+import spaceXImage from '../images/spaceX.jpg'
 import sketchupImage from '../images/sketchup.jpg'
 import tcpsImage from '../images/Turnkeylogo.jpg'
 import rockitImage from '../images/rockIt.jpg'
 import i9Image from '../images/i9logo.jpg'
 
 const allExperience = [
+{
+    title: 'Software Engineer',
+    company: 'SpaceX',
+    date: 'Launching February 2023',
+    image: spaceXImage,
+    },
   {
     title: 'Software Engineering Intern',
     company: 'Trimble SketchUp',
-    date: 'May 2022 - Present',
+    date: 'May 2022 - August 2022',
     image: sketchupImage,
     description:
             <>
@@ -24,7 +31,7 @@ const allExperience = [
   {
     title: 'Security Analyst and Software Engineering Intern',
     company: 'Turnkey Cyber Security and Privacy Solutions',
-    date: 'March 2021 - Present',
+    date: 'March 2021 - May 2022',
     image: tcpsImage,
     description:
             <>

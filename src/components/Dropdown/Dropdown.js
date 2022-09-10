@@ -17,7 +17,7 @@ const Dropdown = ({ title, company, date, image, description }) => {
                     <h2 href="#" className="block mt-1 text-xl leading-tight">{title}</h2>
                     <div className="tracking-wide text-lg">{company}</div>
                     <div className="mt-2">{isExpanded ? description : null}</div>
-                    <span className={'text-sm hover:border-b-2 cursor-pointer border-amber-500 border-b-1'} onClick={toggleExpansion}>{isExpanded ? 'Show Less' : 'Show More'}</span>
+                    <span className={'text-sm hover:border-b-2 cursor-pointer border-amber-500 border-b-1'} onClick={toggleExpansion}>{description ? isExpanded ? 'Show Less' : 'Show More': ''}</span>
                 </div>
             </div>
         </div>
