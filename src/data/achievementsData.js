@@ -1,8 +1,15 @@
 import eagleImage from '../images/eagle.jpg'
 import icrImage from '../images/icr.jpg'
 import minesImage from '../images/mines.jpg'
+import googleImage from '../images/google.png'
 
 const allAchievements = [
+  {
+    title: 'C-MAPP Scholar',
+    image: googleImage,
+    date: 'Fall 2022',
+    company: 'Google'
+  },
   {
     title: 'C-MAPP Scholar',
     image: icrImage,

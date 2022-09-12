@@ -97,14 +97,14 @@ const ExperiencePage = () => {
             {skills}
         </div>
 
-        <h1>Activities</h1>
-        <div>
-            {activities}
-        </div>
-
         <h1>Achievements</h1>
         <div>
             {achievements}
+        </div>
+        
+        <h1>Activities</h1>
+        <div>
+            {activities}
         </div>
     </>
   )
