@@ -22,6 +22,7 @@ const allSkills = [
         [
           'Git',
           'Linux',
+          'Docker',
           'Visual Studio Code',
           'DevTools',
           'Vim',
