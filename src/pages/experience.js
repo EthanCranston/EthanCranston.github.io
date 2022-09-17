@@ -16,7 +16,7 @@ const ExperiencePage = () => {
   const achievements = []
   const activities = []
 
-  for (const element of allExperience) {
+  for (const [index, element] of allExperience.entries()) {
     experience.push(
       <Card
           title={element.title}
@@ -25,12 +25,12 @@ const ExperiencePage = () => {
           image={element.image}
           subtitle={element.subtitle}
           description={element.description}
-          key={element.title}
+          key={element.title + index}
       />
     )
   }
 
-  for (const element of allEducation) {
+  for (const [index, element] of allEducation.entries()) {
     education.push(
       <Card
         title={element.title}
@@ -39,23 +39,23 @@ const ExperiencePage = () => {
         image={element.image}
         subtitle={element.subtitle}
         description={element.description}
-        key={element.title}
+        key={element.title + index}
       />
     )
   }
 
-  for (const element of allSkills) {
+  for (const [index, element] of allSkills.entries()) {
     skills.push(
       <SkillCard
           category={element.category}
           image={element.image}
           skills={element.skills}
-          key={element.category}
+          key={element.category + index}
       />
     )
   }
 
-  for (const element of allActivities) {
+  for (const [index, element] of allActivities.entries()) {
     activities.push(
       <Card
         title={element.title}
@@ -64,12 +64,12 @@ const ExperiencePage = () => {
         image={element.image}
         subtitle={element.subtitle}
         description={element.description}
-        key={element.title}
+        key={element.title + index}
       />
     )
   }
 
-  for (const element of allAchievements) {
+  for (const [index, element] of allAchievements.entries()) {
     achievements.push(
       <Card
         title={element.title}
@@ -78,7 +78,7 @@ const ExperiencePage = () => {
         image={element.image}
         subtitle={element.subtitle}
         description={element.description}
-        key={element.title}
+        key={element.title + index}
       />
     )
   }

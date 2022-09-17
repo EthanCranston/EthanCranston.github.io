@@ -4,7 +4,7 @@ const SkillCard = ({ category, image, skills }) => {
   const allSkills = []
 
   for (const element of skills) {
-    allSkills.push(<div className='text-center'>{element}</div>)
+    allSkills.push(<div className='text-center' key={element}>{element}</div>)
   }
 
   return (
