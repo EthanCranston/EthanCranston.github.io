@@ -1,7 +1,7 @@
 import eagleImage from '../images/eagle.jpg'
 import icrImage from '../images/icr.jpg'
 import minesImage from '../images/mines.jpg'
-import googleImage from '../images/google.png'
+import googleImage from '../images/google.jpg'
 
 const allAchievements = [
   {

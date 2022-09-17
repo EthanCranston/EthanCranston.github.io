@@ -1,7 +1,7 @@
 import React from 'react'
 import shavedIceImage from '../images/shavedIceParadise.jpg'
 import comResImage from '../images/communityResources.jpg'
-import minesFoundationImage from '../images/minesFoundation.png'
+import minesFoundationImage from '../images/minesFoundation.jpg'
 
 const allActivities = [
   {
