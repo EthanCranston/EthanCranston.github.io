@@ -29,14 +29,14 @@ const allExperience = [
 
   },
   {
-    title: 'Security Analyst and Software Engineering Intern',
+    title: 'Software Engineering and Security Analyst Intern',
     company: 'Turnkey Cyber Security and Privacy Solutions',
     date: 'March 2021 - May 2022',
     image: tcpsImage,
     description:
             <>
                 <ul className="list-disc">
-                    <li>Proposed, designed, and developed RPA software that reduced the company&apos;s menial workload by 10 times</li>
+                    <li>Proposed, designed, and developed RPA software that reduced the company&apos;s manual workload by several hours per customer</li>
                     <li>Wrote documentation for the company&apos;s new security enclave environment</li>
                     <li>Learned about a variety of network and hardware vulnerabilities</li>
                     <li>Gained experience with a variety of essential security practices</li>
