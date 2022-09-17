@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Dropdown = ({ title, company, date, image, description }) => {
+const Card = ({ title, company, date, image, subtitle, description }) => {
   const [isExpanded, setExpansion] = useState(false)
   function toggleExpansion () {
     setExpansion(!isExpanded)
@@ -16,6 +16,7 @@ const Dropdown = ({ title, company, date, image, description }) => {
                     <div className="tracking-wide text-sm text-amber-500">{date}</div>
                     <h2 href="#" className="block mt-1 text-xl leading-tight">{title}</h2>
                     <div className="tracking-wide text-lg">{company}</div>
+                    <div className="tracking-wide">{subtitle}</div>
                     <div className="mt-2">{isExpanded ? description : null}</div>
                     <span className={'text-sm hover:border-b-2 cursor-pointer border-amber-500 border-b-1'} onClick={toggleExpansion}>{description ? isExpanded ? 'Show Less' : 'Show More': ''}</span>
                 </div>
@@ -24,4 +25,4 @@ const Dropdown = ({ title, company, date, image, description }) => {
   )
 }
 
-export default Dropdown
+export default Card

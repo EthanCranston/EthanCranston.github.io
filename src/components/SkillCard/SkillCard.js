@@ -1,6 +1,6 @@
 import React from 'react'
 
-const EduCard = ({ category, image, skills }) => {
+const SkillCard = ({ category, image, skills }) => {
   const allSkills = []
 
   for (const element of skills) {
@@ -23,4 +23,4 @@ const EduCard = ({ category, image, skills }) => {
   )
 }
 
-export default EduCard
+export default SkillCard

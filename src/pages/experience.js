@@ -1,8 +1,7 @@
 import React from 'react'
 import './Pages.css'
 
-import Dropdown from '../components/Dropdown/Dropdown'
-import EduCard from '../components/EduCard/EduCard'
+import Card from '../components/Card/Card'
 import SkillCard from '../components/SkillCard/SkillCard'
 import allExperience from '../data/experienceData'
 import allEducation from '../data/educationData'
@@ -19,11 +18,12 @@ const ExperiencePage = () => {
 
   for (const element of allExperience) {
     experience.push(
-      <Dropdown
+      <Card
           title={element.title}
           company={element.company}
           date={element.date}
           image={element.image}
+          subtitle={element.subtitle}
           description={element.description}
           key={element.title}
       />
@@ -32,13 +32,14 @@ const ExperiencePage = () => {
 
   for (const element of allEducation) {
     education.push(
-      <EduCard
-          title={element.title}
-          company={element.company}
-          date={element.date}
-          image={element.image}
-          subTitle={element.subTitle}
-          key={element.title}
+      <Card
+        title={element.title}
+        company={element.company}
+        date={element.date}
+        image={element.image}
+        subtitle={element.subtitle}
+        description={element.description}
+        key={element.title}
       />
     )
   }
@@ -56,27 +57,29 @@ const ExperiencePage = () => {
 
   for (const element of allActivities) {
     activities.push(
-      <Dropdown
-          title={element.title}
-          company={element.company}
-          date={element.date}
-          image={element.image}
-          description={element.description}
-          key={element.title}
-        />
+      <Card
+        title={element.title}
+        company={element.company}
+        date={element.date}
+        image={element.image}
+        subtitle={element.subtitle}
+        description={element.description}
+        key={element.title}
+      />
     )
   }
 
   for (const element of allAchievements) {
     achievements.push(
-            <EduCard
-                title={element.company}
-                company={element.title}
-                date={element.date}
-                image={element.image}
-                subTitle={element.subTitle}
-                key={element.title}
-            />
+      <Card
+        title={element.title}
+        company={element.company}
+        date={element.date}
+        image={element.image}
+        subtitle={element.subtitle}
+        description={element.description}
+        key={element.title}
+      />
     )
   }
 
