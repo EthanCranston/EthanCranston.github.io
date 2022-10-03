@@ -4,7 +4,7 @@ const ContactButton = () => {
   const [showing, setShowing] = React.useState(false)
 
   const nothingToScrapeHere = () => {
-    return ['nothingecnothing'.slice(7, 9) + 'race to the enston'.replace('ace to the e', 'a'), 'mines is an edu'.replace(' is an ', '.')]
+    return ['nothingetnothing'.slice(7, 9) + 'hate to the hen'.replace('ate to the he', 'a'), 'ethan cranston is a gom'.replace(' is a g', '.c').replace(' ', '')]
   }
   let component
   if (showing) {
