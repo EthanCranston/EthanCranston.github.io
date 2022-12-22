@@ -23,6 +23,7 @@ const ClientManagement = React.lazy(() => import('./pages/projects/clientManagem
 const BezierCurves = React.lazy(() => import('./pages/projects/bezier'))
 const ScrapingTool = React.lazy(() => import('./pages/projects/scrapingTool'))
 const VisualTesting = React.lazy(() => import('./pages/projects/visualTesting'))
+const HumanDetection = React.lazy(() => import('./pages/projects/humanDetection'))
 
 function App () {
   const particlesInit = useCallback(async (engine) => {
@@ -61,6 +62,7 @@ function App () {
                   <Route path="bezier" element={<BezierCurves/>} />
                   <Route path="scrapingtool" element={<ScrapingTool/>} />
                   <Route path="visualtesting" element={<VisualTesting/>} />
+                  <Route path="humandetection" element={<HumanDetection/>}/>
                 </Route>
                 <Route path="*" element={<Page404/>} />
               </Routes>

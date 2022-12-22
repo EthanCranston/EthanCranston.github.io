@@ -9,8 +9,15 @@ import paperworkImage from '../images/paperwork.jpg'
 import bezier from '../images/bezier.jpg'
 import scraper from '../images/scraper.png'
 import visualImage from '../images/test-diffZoom.png'
+import identifiedHuman from '../images/identifiedHuman.png'
 
 const allProjects = [
+  {
+    title: 'Human Detection',
+    description: 'Used camera and LIDAR to identify humans near autonomous vehicles',
+    image: identifiedHuman,
+    link: 'humandetection'
+  },
   {
     title: 'Visual Regression Testing',
     description: 'Implemented visual testing to detect difficult regressions',
