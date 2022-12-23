@@ -17,7 +17,7 @@ const BezierCurves = () => {
         className='border-amber-500 rounded-md border-b-2 max-w-80'>Your browser does not support the video player.</video>
         <p>The video above shows a demo of a curve object in a live editor window I built to help debug the program.</p>
         <p>The code below shows the main section of my recursive implementation. The nodes are saved in a circular
-            linked list that allows new points to be inserted easily.
+            linked list that allows new points to be inserted efficiently.
         </p>
         <CodeSnippet language="c"code={bezierCode}/>
         </>

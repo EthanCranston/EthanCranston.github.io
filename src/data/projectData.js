@@ -16,7 +16,8 @@ const allProjects = [
     title: 'Human Detection',
     description: 'Used LIDAR and video to identify humans near autonomous vehicles',
     image: identifiedHuman,
-    link: 'humandetection'
+    link: 'humandetection',
+    featured: true
   },
   {
     title: 'Visual Regression Testing',
@@ -28,7 +29,8 @@ const allProjects = [
     title: 'Bézier Curves',
     description: 'An implementation of Catmull-Rom splines',
     image: bezier,
-    link: 'bezier'
+    link: 'bezier',
+    featured: true
   },
   {
     title: 'Security Scraping Tool',
@@ -58,7 +60,8 @@ const allProjects = [
     title: 'Equation Finder',
     description: 'A program that will find an equation based on the solution',
     image: mathImage,
-    link: 'equationfinder'
+    link: 'equationfinder',
+    featured: true
   },
   {
     title: 'DP Pathfinder',
