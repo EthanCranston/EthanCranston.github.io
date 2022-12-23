@@ -4,7 +4,7 @@ const SkillCard = ({ category, image, skills }) => {
   const allSkills = []
 
   for (const element of skills) {
-    allSkills.push(<div className='text-center' key={element}>{element}</div>)
+    allSkills.push(<div className='text-start' key={element}>{element}</div>)
   }
 
   return (
@@ -14,7 +14,7 @@ const SkillCard = ({ category, image, skills }) => {
                     <img src={image} className={'h-48 w-full object-cover md:h-full md:w-48'} alt={category + ' graphic'}></img>
                 </div>
                 <div className="flex flex-col grow justify-center p-8">
-                    <div className="text-center text-amber-500">{category}</div>
+                    <div className="text-start text-amber-500">{category}</div>
                     <div className="flex flex-col justify-center">{allSkills}</div>
                 </div>
                 </div>
