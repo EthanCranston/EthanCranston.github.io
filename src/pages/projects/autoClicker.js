@@ -31,8 +31,8 @@ const AutoClicker = () => {
         <br></br>
 
         <p>View the full project here:</p>
-        <a href="https://github.com/ecranston405/AutoClicker">
-        https://github.com/ecranston405/AutoClicker</a>
+        <a href="https://github.com/EthanCranston/AutoClicker">
+        https://github.com/EthanCranston/AutoClicker</a>
         </>
 
   )

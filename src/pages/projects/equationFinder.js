@@ -35,8 +35,8 @@ const EquationFinder = () => {
             <CodeSnippet language="c"code={equationCode}/>
         <br></br>
         <p>View the full project here: </p>
-        <a href="https://github.com/ecranston405/EquationFinder">
-        https://github.com/ecranston405/EquationFinder</a>
+        <a href="https://github.com/EthanCranston/EquationFinder">
+        https://github.com/EthanCranston/EquationFinder</a>
         </>
   )
 }

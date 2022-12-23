@@ -89,7 +89,10 @@ const HumanDetection = () => {
         <CaptionedImage maxHeight={72} image={humanDetectionCamera} caption="Bounding boxes around detected humans"/>
         <br></br>
 
-
+        <p>View the full project here:</p>
+        <a href="https://github.com/EthanCranston/StratoMiners">
+        https://github.com/EthanCranston/StratoMiners</a>
+        
         </>
   )
 }
