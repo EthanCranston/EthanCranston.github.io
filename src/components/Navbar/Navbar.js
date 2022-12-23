@@ -29,7 +29,7 @@ const Navbar = () => {
           </p>
           ))}
         </div>
-        <div></div>
+        <div className='sm:w-22'></div>
       </div>
     </nav >
   )
