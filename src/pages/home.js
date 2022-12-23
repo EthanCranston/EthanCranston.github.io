@@ -10,7 +10,7 @@ const HomePage = () => {
         <h1>Ethan Cranston</h1>
         <p>I&apos;m a software engineer with a passion for finding elegant solutions to difficult problems.
           I hold myself to a high standard of meticulous software development. My goal is to write code
-          that is both maintainable and functional. Take a look at my projects to see these standards in action.</p>
+          that is both maintainable and functional. Take a look at <a href="/#/projects">my projects</a> to see these standards in action.</p>
         <CaptionedImages image={EthanPortrait} alt="Portrait of Ethan Cranston" maxHeight={72}/>
 
         <br></br>
