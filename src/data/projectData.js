@@ -14,7 +14,7 @@ import identifiedHuman from '../images/identifiedHuman.png'
 const allProjects = [
   {
     title: 'Human Detection',
-    description: 'Used camera and LIDAR to identify humans near autonomous vehicles',
+    description: 'Used LIDAR and video to identify humans near autonomous vehicles',
     image: identifiedHuman,
     link: 'humandetection'
   },
