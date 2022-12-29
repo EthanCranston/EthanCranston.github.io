@@ -10,6 +10,7 @@ import bezier from '../images/bezier.jpg'
 import scraper from '../images/scraper.png'
 import visualImage from '../images/test-diffZoom.png'
 import identifiedHuman from '../images/identifiedHuman.png'
+import printError from '../images/failedPrintWithOutline.png'
 
 const allProjects = [
   {
@@ -18,6 +19,12 @@ const allProjects = [
     image: identifiedHuman,
     link: 'humandetection',
     featured: true
+  },
+  {
+    title: '3D Print Error Detection',
+    description: 'Used computer vision techniques to identify failed 3D prints',
+    image: printError,
+    link: '3dprinterrordetection'
   },
   {
     title: 'Visual Regression Testing',

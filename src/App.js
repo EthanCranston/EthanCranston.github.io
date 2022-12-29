@@ -24,6 +24,7 @@ const BezierCurves = React.lazy(() => import('./pages/projects/bezier'))
 const ScrapingTool = React.lazy(() => import('./pages/projects/scrapingTool'))
 const VisualTesting = React.lazy(() => import('./pages/projects/visualTesting'))
 const HumanDetection = React.lazy(() => import('./pages/projects/humanDetection'))
+const ErrorDetection = React.lazy(() => import('./pages/projects/3dPrintErrorDetection'))
 
 function App () {
   const particlesInit = useCallback(async (engine) => {
@@ -63,6 +64,7 @@ function App () {
                   <Route path="scrapingtool" element={<ScrapingTool/>} />
                   <Route path="visualtesting" element={<VisualTesting/>} />
                   <Route path="humandetection" element={<HumanDetection/>}/>
+                  <Route path="3dprinterrordetection" element={<ErrorDetection/>}/>
                 </Route>
                 <Route path="*" element={<Page404/>} />
               </Routes>
