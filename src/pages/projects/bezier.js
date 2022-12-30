@@ -12,7 +12,7 @@ const BezierCurves = () => {
         extend <a href='https://www.sfml-dev.org/index.php'>SFML</a>. The class uses given points and a tension
         to construct the corresponding curve. The program technically creates
         a <a href='https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline'>Catmull–Rom spline</a> which
-        I chose because of its more efficient recursive implementation.</p>
+        I chose because of its efficient recursive implementation.</p>
         <video src={bezierVideo} controls="controls"
         className='border-amber-500 rounded-md border-b-2 max-w-80'>Your browser does not support the video player.</video>
         <p>The video above shows a demo of a curve object in a live editor window I built to help debug the program.</p>

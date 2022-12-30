@@ -7,7 +7,7 @@ const EquationFinder = () => {
   return (
         <>
         <h1>Reverse Equation Finder</h1>
-        <p>I occasionally found myself in the situation where I had a problem and its solution, but
+        <p>While studying mechanical engineering, I occasionally found myself in the situation where I had a problem and its solution, but
             could not remember how I had originally solved it. To overcome this, I wrote a program in C++ that
             exhaustively checks possible equations until the correct one is found.
         </p>

@@ -21,23 +21,23 @@ const allProjects = [
     featured: true
   },
   {
+    title: 'Bézier Curves',
+    description: 'An implementation of Catmull-Rom splines',
+    image: bezier,
+    link: 'bezier'
+  },
+  {
     title: '3D Print Error Detection',
     description: 'Used computer vision techniques to identify failed 3D prints',
     image: printError,
-    link: '3dprinterrordetection'
+    link: '3dprinterrordetection',
+    featured: true
   },
   {
     title: 'Visual Regression Testing',
     description: 'Implemented visual testing to detect difficult regressions',
     image: visualImage,
     link: 'visualtesting'
-  },
-  {
-    title: 'Bézier Curves',
-    description: 'An implementation of Catmull-Rom splines',
-    image: bezier,
-    link: 'bezier',
-    featured: true
   },
   {
     title: 'Security Scraping Tool',
