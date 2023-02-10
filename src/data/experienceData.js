@@ -9,8 +9,14 @@ const allExperience = [
 {
     title: 'Software Engineer',
     company: 'SpaceX',
-    date: 'Launching February 2023',
+    date: 'February 2023 - Present',
     image: spaceXImage,
+    description:
+            <>
+                <ul>
+                    <li>Building software that analyzes telemetry data from rockets and satellites.</li>
+                </ul>
+            </>
     },
   {
     title: 'Software Engineering Intern',
