@@ -52,7 +52,7 @@ const ThisWebsite = () => {
         
         <br></br>
         <h2>Discussion and Use</h2>
-        <p>To be used, this program would be coordinated with a print imaging software like <a href="\https://plugins.octoprint.org/plugins/octolapse/">Octolapse</a> to
+        <p>To be used, this program would be coordinated with a print imaging software like <a href="https://plugins.octoprint.org/plugins/octolapse">Octolapse</a> to
           move the printhead out of the way after each layer so that a clear image can be taken. To accommodate these intermediate steps,
           the points from the stl file would be interpolated, then filtered by z height. Notifications could be sent
           or the print could be paused if an issue was detected. In practice, an AI approach 
